@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+
+
+
+
+
+
+
+<script src="js/react.production.min.js"></script>
+<script src="js/react-dom.production.min.js"></script>
+<script src="js/dc-runtime.js"></script>
+
+</head>
+<body>
+
+<x-dc>
+<helmet>
+<title>Carmella — Shop with Intention. Build a Wardrobe That Works.</title>
+<meta name="description" content="Carmella helps you see what fits your wardrobe, lifestyle, and shopping plan before you buy. Join the waitlist for early access.">
+<link rel="canonical" href="https://carmella.app/">
+<meta property="og:title" content="Carmella — Love fashion. Build a wardrobe that works.">
+<meta property="og:description" content="Join the waitlist for early access.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="js/image-slot.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>/* vietnamese */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/da2c07d0-5af3-40ff-b772-91909d02a416.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/96da53b0-3208-46e7-ac67-6d0bc5b6d666.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/351ffda6-97cc-4852-aa59-3f7b9d79949f.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/da2c07d0-5af3-40ff-b772-91909d02a416.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/96da53b0-3208-46e7-ac67-6d0bc5b6d666.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/351ffda6-97cc-4852-aa59-3f7b9d79949f.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/da2c07d0-5af3-40ff-b772-91909d02a416.woff2") format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/96da53b0-3208-46e7-ac67-6d0bc5b6d666.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url("assets/fonts/351ffda6-97cc-4852-aa59-3f7b9d79949f.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/455c1631-e0c1-4617-bf0d-3f9561704bda.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/c9c855bc-8ab3-46e4-b969-9cfb871074a5.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/fa59f200-c0f7-4ebf-a3e7-5b5c9a287981.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/725aa3dc-5c78-4adc-b810-38dc31c667de.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/455c1631-e0c1-4617-bf0d-3f9561704bda.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/c9c855bc-8ab3-46e4-b969-9cfb871074a5.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/fa59f200-c0f7-4ebf-a3e7-5b5c9a287981.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/725aa3dc-5c78-4adc-b810-38dc31c667de.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/3aac4353-7733-44e0-b99f-27f93cb85d38.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/328ece9c-ff79-4ad0-a5fa-56fc5d20f6a3.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/e1ee12ee-2f07-4187-b948-d534f25f7002.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/a357eb1b-dc69-47c5-8f56-0a3a01c682f3.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* math */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/3aac4353-7733-44e0-b99f-27f93cb85d38.woff2") format('woff2');
+  unicode-range: U+0302-0303, U+0305, U+0307-0308, U+0310, U+0312, U+0315, U+031A, U+0326-0327, U+032C, U+032F-0330, U+0332-0333, U+0338, U+033A, U+0346, U+034D, U+0391-03A1, U+03A3-03A9, U+03B1-03C9, U+03D1, U+03D5-03D6, U+03F0-03F1, U+03F4-03F5, U+2016-2017, U+2034-2038, U+203C, U+2040, U+2043, U+2047, U+2050, U+2057, U+205F, U+2070-2071, U+2074-209F, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2100-2112, U+2114-2115, U+2117-2121, U+2123-214F, U+2190, U+2192, U+2194-21AE, U+21B0-21E5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B7, U+23D0, U+23DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, U+2BFE, U+3030, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF;
+}
+/* symbols */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/328ece9c-ff79-4ad0-a5fa-56fc5d20f6a3.woff2") format('woff2');
+  unicode-range: U+0001-000C, U+000E-001F, U+007F-009F, U+20DD-20E0, U+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F000-1F0FF, U+1F100-1F1AE, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, U+1F700-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, U+1F890-1F8AD, U+1F8B0-1F8BB, U+1F8C0-1F8C1, U+1F8D0-1F8D8, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FAC6, U+1FAC8, U+1FACC-1FADD, U+1FADF-1FAEB, U+1FAEF-1FAFA, U+1FB00-1FBFF;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/e1ee12ee-2f07-4187-b948-d534f25f7002.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/a357eb1b-dc69-47c5-8f56-0a3a01c682f3.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/debe98d0-d4d8-4e75-b3bb-ed26dc3551d9.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/231fb4f6-50b9-49d9-a7b4-1138140a863a.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/e414b659-9387-4c82-a128-6f88a1f13e60.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/debe98d0-d4d8-4e75-b3bb-ed26dc3551d9.woff2") format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/231fb4f6-50b9-49d9-a7b4-1138140a863a.woff2") format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/e414b659-9387-4c82-a128-6f88a1f13e60.woff2") format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  body { margin: 0; background: #FFFFFF; color: #281B09; font-family: Jost, 'Helvetica Neue', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+  h1, h2, h3, h4, p, figure, blockquote, ul, ol, dl, dd { margin: 0; }
+  img { display: block; max-width: 100%; }
+  a { color: #281B09; text-decoration: none; }
+  a:hover { color: #483D2E; }
+  summary::-webkit-details-marker { display: none; }
+  summary { list-style: none; cursor: pointer; }
+  input { font: inherit; }
+  ::selection { background: #281B09; color: #FFFFFF; }
+  :focus-visible { outline: 2px solid #281B09; outline-offset: 3px; }
+  input:-webkit-autofill { -webkit-text-fill-color: #281B09; -webkit-box-shadow: 0 0 0 40px #FFFFFF inset; }
+  @keyframes cm-rise { from { opacity: 0; transform: translate3d(0,22px,0); } to { opacity: 1; transform: none; } }
+  @keyframes cm-reveal { from { clip-path: inset(0 0 100% 0); } to { clip-path: inset(0 0 0 0); } }
+  @keyframes cm-fade { from { opacity: 0; } to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
+</style>
+</helmet>
+
+<div id="top" style="max-width: 100%; overflow-x: clip">
+
+  <a href="#waitlist" style="position: absolute; left: -9999px; top: 0; padding: 10px 14px; background: #281B09; color: #FFFFFF" style-focus="left: 8px; top: 8px; z-index: 90">Skip to waitlist</a>
+
+  <header role="banner" style="position: sticky; top: 0; z-index: 60; background: #FFFFFF; box-shadow: {{ headerShadow }}; transition: box-shadow .4s ease">
+    <div style="max-width: 1440px; margin: 0 auto; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 20px; padding: 0 clamp(20px, 3.4vw, 56px); height: {{ headerHeight }}; transition: height .35s ease">
+      <sc-if value="{{ navFull }}" hint-placeholder-val="{{ true }}">
+        <nav aria-label="Primary" style="display: flex; align-items: center; gap: clamp(18px, 2.2vw, 36px)">
+          <a href="#how-it-works" style="font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 12px 0; white-space: nowrap" style-hover="color: #483D2E">How it works</a>
+          <a href="#why-carmella" style="font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 12px 0; white-space: nowrap" style-hover="color: #483D2E">Why Carmella</a>
+          <a href="#point-of-view" style="font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; padding: 12px 0; white-space: nowrap" style-hover="color: #483D2E">Our point of view</a>
+        </nav>
+      </sc-if>
+      <sc-if value="{{ navCompact }}">
+        <button type="button" sc-camel-on-click="{{ toggleMenu }}" aria-expanded="{{ menuOpen }}" aria-controls="cm4-menu" aria-label="{{ menuLabel }}" style="justify-self: start; width: 46px; height: 46px; display: grid; place-content: center; gap: 6px; background: transparent; border: 0; color: #281B09; cursor: pointer; padding: 0">
+          <span aria-hidden="true" style="width: 22px; height: 1.5px; background: currentColor"></span>
+          <span aria-hidden="true" style="width: 22px; height: 1.5px; background: currentColor"></span>
+        </button>
+      </sc-if>
+
+      <a href="#top" aria-label="Carmella home" style="font-family: 'Bodoni Moda', Didot, 'Times New Roman', serif; font-size: clamp(22px, 2.1vw, 30px); font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; line-height: 1; padding-left: 0.24em">Carmella</a>
+
+      <div style="justify-self: end">
+        <a href="#waitlist" sc-camel-on-click="{{ onHeaderCta }}" style="display: inline-flex; align-items: center; min-height: {{ headerCtaHeight }}; padding: 0 {{ headerCtaPad }}; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 11.5px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap; transition: background .3s ease" style-hover="background: #483D2E; color: #FFFFFF">{{ headerCtaLabel }}</a>
+      </div>
+    </div>
+
+    <sc-if value="{{ menuOpen }}">
+      <nav id="cm4-menu" aria-label="Primary" style="background: #FFFFFF; padding: 8px 20px 32px; display: grid; gap: 4px; box-shadow: 0 18px 30px rgba(40,27,9,0.08); animation: cm-fade .25s ease both">
+        <a href="#how-it-works" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Bodoni Moda', Didot, serif; font-size: 32px">How it works</a>
+        <a href="#why-carmella" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Bodoni Moda', Didot, serif; font-size: 32px">Why Carmella</a>
+        <a href="#point-of-view" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Bodoni Moda', Didot, serif; font-size: 32px; font-style: italic">Our point of view</a>
+      </nav>
+    </sc-if>
+  </header>
+
+  <main>
+
+    <section aria-labelledby="cm4-hero-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(28px, 4vw, 64px) clamp(20px, 3.4vw, 56px) clamp(64px, 8vw, 128px)">
+      <div style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54; animation: cm-fade .8s ease both">
+        <span>Carmella — Coming soon</span>
+        <span>The considered wardrobe</span>
+      </div>
+
+      <div style="margin-top: clamp(24px, 3vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: clamp(32px, 4vw, 72px); align-items: end">
+        <div style="animation: cm-rise .9s cubic-bezier(.16,.84,.28,1) both">
+          <h1 id="cm4-hero-h" style="font-family: 'Bodoni Moda', Didot, 'Times New Roman', serif; font-weight: 400; font-size: clamp(46px, 7.2vw, 118px); line-height: 0.98; letter-spacing: -0.025em; text-wrap: balance">Love fashion. <span style="font-style: italic; color: #483D2E">Build a wardrobe that works.</span></h1>
+          <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 46ch; font-size: clamp(17px, 1.3vw, 19.5px); line-height: 1.6; color: #4A423B">Carmella helps you pause before you buy, see what fits your real wardrobe and lifestyle, and choose pieces you’ll actually wear.</p>
+          <div style="margin-top: clamp(28px, 3vw, 40px); display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px">
+            <a href="#waitlist" sc-camel-on-click="{{ onHeroCta }}" style="display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 34px; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; transition: background .3s ease" style-hover="background: #483D2E; color: #FFFFFF">Join the waitlist</a>
+            <a href="#how-it-works" sc-camel-on-click="{{ onHowItWorks }}" style="display: inline-flex; align-items: center; min-height: 48px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; border-bottom: 1px solid #C9C3BC" style-hover="color: #483D2E; border-bottom-color: #483D2E">See how it works</a>
+          </div>
+          <p style="margin-top: 18px; font-size: 13.5px; color: #625B54">Early access and occasional thoughtful updates.</p>
+        </div>
+
+        <div style="position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 0.62fr); gap: clamp(12px, 1.4vw, 20px); align-items: end">
+          <figure style="position: relative; animation: cm-reveal 1.2s cubic-bezier(.7,0,.2,1) .1s both">
+            <div style="width: 100%; aspect-ratio: 400 / 564; background: #F1EFEC; overflow: hidden"><image-slot fit="cover" id="v4-hero-main" src="assets/images/76517059-f7be-48a7-b639-b92a2f5ca5fa.webp" shape="rect" placeholder="Hero: editorial Parisian fashion portrait" style="width:100%;height:100%"></image-slot></div>
+            <figcaption aria-hidden="true" style="position: absolute; left: clamp(12px, 1.4vw, 20px); bottom: clamp(12px, 1.4vw, 20px); width: min(250px, calc(100% - 24px)); background: rgba(255,255,255,0.94); padding: 14px 16px; display: grid; gap: 10px; box-shadow: 0 12px 32px rgba(20,12,4,0.12)">
+              <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px"><span style="font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #625B54">On your list</span><span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #625B54">Day 3</span></div>
+              <p style="font-family: 'Bodoni Moda', Didot, serif; font-size: 19px; line-height: 1.15; color: #281B09">Ivory draped top</p>
+              <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="font-size: 11px; padding: 5px 9px; border: 1px solid #E7E4E0; color: #281B09; white-space: nowrap">White trousers</span><span style="font-size: 11px; padding: 5px 9px; border: 1px solid #E7E4E0; color: #281B09; white-space: nowrap">Black belt</span><span style="font-size: 11px; padding: 5px 9px; border: 1px solid #E7E4E0; color: #281B09; white-space: nowrap">+4 looks</span></div>
+            </figcaption>
+          </figure>
+          <div style="display: grid; gap: clamp(12px, 1.4vw, 20px); animation: cm-rise 1s cubic-bezier(.16,.84,.28,1) .35s both">
+            <div style="width: 100%; aspect-ratio: 2 / 3; background: #F1EFEC; overflow: hidden"><image-slot fit="cover" id="v4-hero-shoe" src="assets/images/399e5e0c-8f3c-4c82-9cc9-a8e49d7286cd.webp" shape="rect" placeholder="Chocolate-brown shoe, still life" style="width:100%;height:100%"></image-slot></div>
+            <div style="background: #F7F7F5; padding: clamp(14px, 1.4vw, 20px)">
+              <p style="font-size: 10.5px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #625B54">Product preview</p>
+              <p style="margin-top: 10px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 24px); line-height: 1.1; font-style: italic">Wait and compare.</p>
+              <p style="margin-top: 8px; font-size: 13.5px; line-height: 1.45; color: #4A423B">Louis Vuitton Alma BB · saved today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-labelledby="cm4-recognition-h" style="background: #F7F7F5">
+      <div style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px)">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(36px, 5vw, 96px); align-items: center">
+          <div>
+            <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">The familiar problem</p>
+            <h2 id="cm4-recognition-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">The problem isn’t wanting beautiful things.</h2>
+            <p style="margin-top: clamp(14px, 1.6vw, 22px); font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(24px, 2.6vw, 40px); line-height: 1.16; color: #483D2E; text-wrap: balance">It’s buying them without seeing the bigger picture.</p>
+            <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 52ch; font-size: clamp(17px, 1.25vw, 19px); line-height: 1.65; color: #4A423B">A saved post here. A cart there. A sale that suddenly feels urgent. Another beautiful piece that works in theory, but not with the life or wardrobe you already have.</p>
+          </div>
+          <img loading="lazy" src="assets/images/2dac907e-3fb2-4592-9cb8-d0e6660440f9.jpg" width="1000" height="1500" alt="Close-up of a gold earring and white collar beside an open fashion magazine." style="width: min(100%, 520px); justify-self: end; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 55%; background: #EDEAE5">
+        </div>
+
+        <ol style="list-style: none; padding: 0; margin-top: clamp(56px, 7vw, 112px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: clamp(36px, 4vw, 72px)">
+          <li>
+            <p aria-hidden="true" style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">i.</p>
+            <h3 style="margin-top: 18px; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">Saved everywhere</h3>
+            <p style="margin-top: 12px; max-width: 36ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Screenshots, links, wishlists, and carts—without one place to compare what matters.</p>
+          </li>
+          <li>
+            <p aria-hidden="true" style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">ii.</p>
+            <h3 style="margin-top: 18px; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">Beautiful, but difficult to wear</h3>
+            <p style="margin-top: 12px; max-width: 36ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">The piece was right on its own. The wardrobe around it was never considered.</p>
+          </li>
+          <li>
+            <p aria-hidden="true" style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">iii.</p>
+            <h3 style="margin-top: 18px; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">A full wardrobe that still feels unfinished</h3>
+            <p style="margin-top: 12px; max-width: 36ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">More clothes do not always create more outfits.</p>
+          </li>
+        </ol>
+
+        <p style="margin: clamp(64px, 8vw, 128px) auto 0; max-width: 28ch; text-align: center; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(26px, 3vw, 46px); line-height: 1.2; letter-spacing: -0.01em; text-wrap: balance">Carmella creates a pause between desire and decision—<span style="font-style: italic; color: #483D2E">without taking the joy out of fashion.</span></p>
+      </div>
+    </section>
+
+    <section id="how-it-works" aria-labelledby="cm4-how-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px)">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 24px clamp(36px, 5vw, 96px); align-items: end">
+        <div>
+          <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">How Carmella works</p>
+          <h2 id="cm4-how-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">From “I want it” to a decision <span style="font-style: italic; color: #483D2E">that feels clear.</span></h2>
+        </div>
+        <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #625B54">Three quiet steps between seeing something beautiful and deciding where it belongs.</p>
+      </div>
+
+      <ol style="list-style: none; padding: 0; margin-top: clamp(48px, 6vw, 96px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: clamp(40px, 3.4vw, 56px) clamp(20px, 2.4vw, 40px); align-items: start">
+        <li style="display: grid; gap: 22px">
+          <div role="img" aria-label="App preview: the Add a piece sheet, with paste link, screenshot, photo and by-hand options." style="aspect-ratio: 4 / 5; background: #F1EFEC; display: grid; place-items: center; overflow: hidden">
+            <div aria-hidden="true" style="zoom: {{ phoneZoom }}; width: 393px; height: 852px; flex: none; position: relative; overflow: hidden; border-radius: 38px; background: #F1EFEC; box-shadow: 0 30px 70px rgba(20,12,4,.22)"><image-slot id="v4-step1-product" src="assets/images/62d23d7f-4da0-44d0-b3ab-0459455c9a1e.webp" shape="rect" fit="cover" placeholder="LV Alma BB product page" style="position:absolute;inset:0;width:100%;height:100%"></image-slot><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(21,13,3,.45),rgba(21,13,3,.62));pointer-events:none"></div><div style="position:absolute;inset:0;background:radial-gradient(40% 24% at 82% 6%,rgba(255,232,198,.22),transparent 72%);pointer-events:none"></div><div style="position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.11) .5px,transparent .5px);background-size:3px 3px;opacity:.5;mix-blend-mode:screen;pointer-events:none"></div><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC;pointer-events:none;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div>
+<div style="position:absolute;left:0;right:0;bottom:0;border-radius:28px 28px 0 0;background:linear-gradient(180deg,#FBF7F1 0%,#F1EAE0 58%,#E5D9C8 100%);padding:12px 26px 52px;display:flex;flex-direction:column;z-index:3">
+<div style="width:38px;height:4px;border-radius:2px;background:rgba(40,27,9,.2);align-self:center"></div>
+<div style="margin-top:26px;font:500 30px/1.06 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.035em;color:#281B09">Add a piece</div>
+<div style="font:400 14px/1.6 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A;margin-top:8px">Save it now. Decide when you're ready.</div>
+<div style="margin-top:26px;border-radius:20px;background:#281B09;padding:18px;display:flex;align-items:center;gap:14px"><div style="width:42px;height:52px;flex:none;border-radius:10px;overflow:hidden;background:#FFFFFF"><image-slot id="v4-step1-thumb" src="assets/images/11d79021-e108-4e6e-b68b-84e8265727a0.jpg" shape="rect" fit="cover" placeholder="Alma BB" style="width:100%;height:100%"></image-slot></div><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:4px"><span style="font:500 15px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC">Paste copied link</span><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#B79E85;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">louisvuitton.com · Alma BB</span></div><span style="font:600 11px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.14em;color:#F4EADC">PASTE</span></div>
+<div style="margin-top:12px;display:flex;gap:10px"><div style="flex:1;height:96px;border-radius:18px;border:1px solid rgba(40,27,9,.14);background:rgba(255,255,255,.35);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#281B09"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="4" width="16" height="16" rx="3"></rect><circle cx="9" cy="9" r="1.5"></circle><path d="M20 15l-5-5-9 9"></path></svg><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif">Screenshot</span></div><div style="flex:1;height:96px;border-radius:18px;border:1px solid rgba(40,27,9,.14);background:rgba(255,255,255,.35);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#281B09"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 8h3l2-3h6l2 3h3v11H4z"></path><circle cx="12" cy="13" r="3.5"></circle></svg><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif">Photo</span></div><div style="flex:1;height:96px;border-radius:18px;border:1px solid rgba(40,27,9,.14);background:rgba(255,255,255,.35);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#281B09"><svg width="22" height="22" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20h4L19 9l-4-4L4 16z"></path></svg><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif">By hand</span></div></div>
+<div style="margin-top:26px;padding-top:18px;border-top:1px solid rgba(40,27,9,.14);display:flex;justify-content:space-between;font:400 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09"><span>Start a new session</span><span style="color:#8A7660">›</span></div>
+</div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(244,234,220,.45)"></div></div></div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 16px">
+            <span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">01</span>
+            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">Save what catches your eye</h3>
+          </div>
+          <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Paste a link, upload a screenshot, or add the item yourself. Wanting it is enough reason to save it. Buying can wait.</p>
+        </li>
+        <li style="display: grid; gap: 22px; margin-top: {{ stagger1 }}">
+          <div role="img" aria-label="App preview: comparing a wool blazer with a Louis Vuitton Alma BB against what you already own." style="aspect-ratio: 4 / 5; background: #F1EFEC; display: grid; place-items: center; overflow: hidden">
+            <div aria-hidden="true" style="zoom: {{ phoneZoom }}; width: 393px; height: 852px; flex: none; position: relative; overflow: hidden; border-radius: 38px; background: linear-gradient(180deg,#FBF7F1 0%,#F1EAE0 58%,#E5D9C8 100%); box-shadow: 0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;inset:0;background-image:radial-gradient(rgba(40,27,9,.20) .5px,transparent .5px);background-size:3px 3px;opacity:.4;mix-blend-mode:multiply;pointer-events:none"></div><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09;pointer-events:none;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div>
+<div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center"><div style="width:40px;height:40px;flex:none;border-radius:50%;border:1px solid rgba(40,27,9,.22);display:flex;align-items:center;justify-content:center;font:400 15px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">←</div><span style="font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Blazer or bag</span><div style="width:40px"></div></div>
+<div style="margin-top:28px;align-self:flex-end;max-width:262px;background:#281B09;color:#F4EADC;padding:14px 16px;border-radius:20px 20px 6px 20px;font:400 14px/1.5 'Archivo','Helvetica Neue',Helvetica,sans-serif">Which should I buy first, the blazer or the Alma BB?</div>
+<div style="margin-top:28px;font:500 22px/1.25 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.025em;color:#281B09">The blazer. You'll wear it more, and the bag is close to one you own.</div>
+<div style="margin-top:22px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px">
+<div style="display:flex;flex-direction:column;gap:10px;min-width:0"><div style="height:170px;border-radius:18px;overflow:hidden;background:#FFFFFF"><image-slot id="v4-step2-blazer" src="assets/images/a008b682-ed38-48e5-b6a7-ae50ab9836df.webp" shape="rect" fit="cover" placeholder="Wool blazer packshot" style="width:100%;height:100%"></image-slot></div><span style="font:500 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Wool blazer</span><span style="font:400 12px/1.45 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A">3 outfits with what you own</span></div>
+<div style="display:flex;flex-direction:column;gap:10px;min-width:0"><div style="height:170px;border-radius:18px;overflow:hidden;background:#FFFFFF"><image-slot id="v4-step2-alma" src="assets/images/0f32718a-e493-47ba-99fc-904ef6293164.webp" shape="rect" fit="cover" placeholder="LV Alma BB packshot" style="width:100%;height:100%"></image-slot></div><span style="font:500 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Louis Vuitton Alma BB</span><span style="font:400 12px/1.45 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A">Similar to your tan crossbody</span></div>
+</div>
+<div style="margin-top:20px;display:flex;gap:8px;flex-wrap:wrap"><span style="height:38px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.3);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Revisit bag on 2 Dec</span><span style="height:38px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.3);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Move bag to Lisbon</span></div>
+<div style="flex:1"></div>
+<div style="height:54px;border-radius:18px;background:#FBF8F3;border:1px solid rgba(40,27,9,.14);display:flex;align-items:center;gap:12px;padding:0 7px 0 18px;flex:none"><span style="flex:1;font:400 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Reply</span><div style="width:40px;height:40px;border-radius:12px;background:rgba(40,27,9,.12);color:#FBF8F3;display:flex;align-items:center;justify-content:center"><svg width="16" height="16" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M6 11l6-6 6 6"></path></svg></div></div>
+<div style="height:40px;flex:none"></div>
+</div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(40,27,9,.35)"></div></div></div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 16px">
+            <span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">02</span>
+            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">See it in context</h3>
+          </div>
+          <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Look at what it works with, whether it fits your lifestyle, what you already own, and where it belongs in your plan.</p>
+        </li>
+        <li style="display: grid; gap: 22px; margin-top: {{ stagger2 }}">
+          <div role="img" aria-label="App preview: a purchase check answering Buy it, with wear, wardrobe and budget reasons." style="aspect-ratio: 4 / 5; background: #F1EFEC; display: grid; place-items: center; overflow: hidden">
+            <div aria-hidden="true" style="zoom: {{ phoneZoom }}; width: 393px; height: 852px; flex: none; position: relative; overflow: hidden; border-radius: 38px; background: radial-gradient(120% 70% at 50% 30%,#4A3319 0%,#2C1E0B 46%,#150D03 100%); box-shadow: 0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;inset:0;background:radial-gradient(40% 24% at 82% 6%,rgba(255,232,198,.22),transparent 72%);pointer-events:none"></div><div style="position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.11) .5px,transparent .5px);background-size:3px 3px;opacity:.5;mix-blend-mode:screen;pointer-events:none"></div><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC;pointer-events:none;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div>
+<div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:16px;display:flex;justify-content:space-between;align-items:center"><div style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#B79E85">PURCHASE CHECK</div><div style="width:40px;height:40px;flex:none;border-radius:50%;border:1px solid rgba(244,234,220,.3);display:flex;align-items:center;justify-content:center;font:400 15px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC">✕</div></div>
+<div style="margin-top:22px;display:flex;align-items:center;gap:14px"><div style="height:64px;width:52px;flex:none;border-radius:14px;overflow:hidden;background:#FFFFFF"><image-slot id="v4-step3-thumb" src="assets/images/119e5343-4864-428e-bfca-e0973b1ef03c.webp" shape="rect" fit="cover" placeholder="Blazer" style="width:100%;height:100%"></image-slot></div><div style="display:flex;flex-direction:column;gap:3px"><span style="font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC">Relaxed wool blazer</span><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#B79E85">AED 1,050</span></div></div>
+<div style="margin-top:40px;font:500 52px/1.06 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.035em;color:#F7EFE3">Buy it.</div>
+<div style="font:400 14px/1.6 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:rgba(244,234,220,.74);margin-top:14px">A piece you'll wear often, and the timing is right.</div>
+<div style="margin-top:26px"><div style="display:flex;flex-direction:column;gap:6px;padding:16px 0;border-top:1px solid rgba(244,234,220,.16)"><div style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#B79E85">WEAR</div><span style="font:400 14px/1.55 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:rgba(244,234,220,.86)">Office days and dinners out, about four days a week.</span></div><div style="display:flex;flex-direction:column;gap:6px;padding:16px 0;border-top:1px solid rgba(244,234,220,.16)"><div style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#B79E85">WARDROBE</div><span style="font:400 14px/1.55 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:rgba(244,234,220,.86)">Works with your grey trousers, white shirt and black jeans. Replaces the worn navy blazer.</span></div><div style="display:flex;flex-direction:column;gap:6px;padding:16px 0;border-top:1px solid rgba(244,234,220,.16)"><div style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#B79E85">BUDGET</div><span style="font:400 14px/1.55 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:rgba(244,234,220,.86)">Leaves AED 46,180 in Autumn Season.</span></div></div>
+<div style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660;padding-top:14px;border-top:1px solid rgba(244,234,220,.16)">Based on your style profile and 8 mapped pieces</div>
+<div style="flex:1"></div>
+<div style="height:54px;border-radius:16px;background:#F4EADC;display:flex;align-items:center;justify-content:center;font:600 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.16em;color:#281B09;flex:none">KEEP AS READY</div>
+<div style="margin-top:14px;text-align:center;font:400 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC;text-decoration:underline;text-underline-offset:3px">Ask a follow-up</div>
+<div style="height:44px;flex:none"></div>
+</div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(244,234,220,.45)"></div></div></div>
+          </div>
+          <div style="display: flex; align-items: baseline; gap: 16px">
+            <span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">03</span>
+            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">Decide without pressure</h3>
+          </div>
+          <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Buy it. Wait. Skip it. Keep it as inspiration. Or look for a better alternative. Carmella makes the trade-offs visible; the choice remains yours.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="cm4-example-h" style="background: #281B09; color: #FFFFFF">
+      <div style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: clamp(48px, 6vw, 112px); align-items: center">
+
+        <div style="order: {{ phoneOrder }}; display: flex; justify-content: center">
+          <div aria-label="Product preview: the Carmella app considering a Louis Vuitton Alma BB." role="img" style="width: min(100%, 340px); background: #FFFFFF; color: #281B09; border-radius: 44px; padding: 12px; box-shadow: 0 40px 80px rgba(0,0,0,0.35)">
+            <div style="border-radius: 34px; overflow: hidden; background: #FFFFFF; padding: 16px 18px 20px">
+              <div style="display: flex; justify-content: space-between; align-items: center; font-size: 12px; font-weight: 500">
+                <span>9:41</span>
+                <span aria-hidden="true" style="width: 84px; height: 22px; border-radius: 12px; background: #281B09"></span>
+                <span style="letter-spacing: 0.04em">100%</span>
+              </div>
+              <div style="margin-top: 18px; display: flex; justify-content: space-between; align-items: baseline">
+                <p style="font-family: 'Bodoni Moda', Didot, serif; font-size: 22px">Considering</p>
+                <p style="font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #625B54">Day 1 of 7</p>
+              </div>
+              <div style="margin-top: 12px; width: 100%; aspect-ratio: 4 / 3; border-radius: 14px; overflow: hidden; background: #FFFFFF"><image-slot id="v4-decision-alma" src="assets/images/6e5e5c1a-8963-4acd-b67a-d6abadb6a78e.webp" shape="rect" fit="cover" placeholder="LV Alma BB packshot" style="width:100%;height:100%"></image-slot></div>
+              <p style="margin-top: 12px; font-family: 'Bodoni Moda', Didot, serif; font-size: 18px; line-height: 1.2">Louis Vuitton Alma BB</p>
+              <p style="margin-top: 4px; font-size: 12.5px; color: #625B54"><a href="https://www.louisvuitton.com" style="color: #625B54; border-bottom: 1px solid #C9C3BC">louisvuitton.com</a> · Saved today</p>
+              <p style="margin-top: 14px; font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #625B54">Works with</p>
+              <div style="margin-top: 8px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; align-items: start">
+                <div style="aspect-ratio: 1 / 1; border-radius: 8px; overflow: hidden; background: #F1EFEC; min-width: 0"><image-slot fit="cover" id="v4-works-1" src="assets/images/a369c17e-10f5-4ead-b0df-38211d599c7a.webp" shape="rect" placeholder="White shirt" style="width:100%;height:100%"></image-slot></div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 8px; overflow: hidden; background: #F1EFEC; min-width: 0"><image-slot fit="cover" id="v4-works-2" src="assets/images/7e57294e-7ad1-46d1-b6ed-57b7cb0f92f1.webp" shape="rect" placeholder="Dark jeans" style="width:100%;height:100%"></image-slot></div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 8px; overflow: hidden; background: #F1EFEC; min-width: 0"><image-slot fit="cover" id="v4-works-3" src="assets/images/eebea101-53ee-42ec-b8da-481fdb7bfc16.webp" shape="rect" placeholder="Black trousers" style="width:100%;height:100%"></image-slot></div>
+                <div style="aspect-ratio: 1 / 1; border-radius: 8px; overflow: hidden; background: #F1EFEC; min-width: 0"><image-slot fit="cover" id="v4-works-4" src="assets/images/0869a69f-cd93-4e34-9618-d557d944abf9.webp" shape="rect" placeholder="Knit" style="width:100%;height:100%"></image-slot></div>
+              </div>
+              <div style="margin-top: 14px; background: #F7F7F5; border-radius: 14px; padding: 14px">
+                <p style="font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #625B54">Recommendation</p>
+                <p style="margin-top: 6px; font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 21px">Wait and compare.</p>
+                <p style="margin-top: 6px; font-size: 12.5px; line-height: 1.45; color: #4A423B">Plan +£120 over your preferred limit.</p>
+              </div>
+              <div style="margin-top: 12px; display: grid; gap: 6px">
+                <span style="display: flex; align-items: center; justify-content: center; min-height: 40px; border-radius: 10px; background: #281B09; color: #FFFFFF; font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase">Keep waiting</span>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px">
+                  <span style="display: flex; align-items: center; justify-content: center; min-height: 40px; border-radius: 10px; background: #F7F7F5; font-size: 10.5px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; text-align: center">Later plan</span>
+                  <span style="display: flex; align-items: center; justify-content: center; min-height: 40px; border-radius: 10px; background: #F7F7F5; font-size: 10.5px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; text-align: center">Alternative</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #C9BBA6">One real decision · Product preview</p>
+          <h2 id="cm4-example-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">A beautiful item. <span style="font-style: italic; color: #E4D7C4">A more complete picture.</span></h2>
+
+          <p style="margin-top: clamp(32px, 3.4vw, 48px); font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #C9BBA6">Carmella considers</p>
+          <ul style="list-style: none; padding: 0; margin-top: 18px; display: grid; gap: 18px">
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">i.</span>It works with several everyday looks already in your wardrobe.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">ii.</span>You have another structured dark bag serving a similar purpose.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">iii.</span>It would take your current shopping plan £120 above your preferred limit.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">iv.</span>The shape is useful; the role is not yet unique.</li>
+          </ul>
+
+          <div style="margin-top: clamp(32px, 3.4vw, 48px); background: #33240F; padding: clamp(22px, 2.4vw, 34px)">
+            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-style: italic; font-size: clamp(26px, 2.4vw, 36px); line-height: 1.1">Wait and compare.</h3>
+            <p style="margin-top: 12px; max-width: 54ch; font-size: 16.5px; line-height: 1.65; color: #E4DACB">Keep it on your list for seven days. Compare it with the bag you already own and notice which one you would choose for a normal week—not only for the version of life you imagined when you saw it.</p>
+            <p style="margin-top: 18px; font-size: 13px; letter-spacing: 0.04em; color: #C9BBA6">Keep waiting · Add to a later plan · Look for a better alternative</p>
+          </div>
+
+          <p style="margin-top: clamp(28px, 3vw, 40px); max-width: 34ch; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(21px, 1.8vw, 27px); line-height: 1.3; color: #FFFFFF">Carmella does not make the decision for you. <span style="font-style: italic">It helps you see the decision more clearly.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-carmella" aria-labelledby="cm4-benefits-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px)">
+      <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Why Carmella</p>
+      <h2 id="cm4-benefits-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em">More clarity. <span style="font-style: italic; color: #483D2E">Same love of fashion.</span></h2>
+
+      <div style="margin-top: clamp(44px, 5.4vw, 88px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: clamp(36px, 5vw, 96px); align-items: start">
+        <dl style="display: grid; gap: 6px">
+          <div tabindex="0" sc-camel-on-mouse-enter="{{ b1 }}" sc-camel-on-focus="{{ b1 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp1 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">01</span>One place for what you want</dt>
+            <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Bring screenshots, links, and saved pieces into one considered wishlist.</dd>
+          </div>
+          <div tabindex="0" sc-camel-on-mouse-enter="{{ b2 }}" sc-camel-on-focus="{{ b2 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp2 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">02</span>A second opinion with context</dt>
+            <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">See whether an item fits your wardrobe, outfits, lifestyle, and priorities.</dd>
+          </div>
+          <div tabindex="0" sc-camel-on-mouse-enter="{{ b3 }}" sc-camel-on-focus="{{ b3 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp3 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">03</span>Time on your side</dt>
+            <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Let the first rush pass. Notice what you still want after a week—or a month.</dd>
+          </div>
+          <div tabindex="0" sc-camel-on-mouse-enter="{{ b4 }}" sc-camel-on-focus="{{ b4 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp4 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">04</span>Budget clarity without restriction</dt>
+            <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Understand where a purchase fits without turning fashion into a spreadsheet.</dd>
+          </div>
+          <div tabindex="0" sc-camel-on-mouse-enter="{{ b5 }}" sc-camel-on-focus="{{ b5 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp5 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">05</span>A wardrobe that becomes easier to wear</dt>
+            <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Choose pieces that connect to what you own and the life you actually live.</dd>
+          </div>
+        </dl>
+
+        <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+          <div aria-hidden="true" ref="{{ bPanelRef }}" style="position: sticky; top: 110px; justify-self: end; width: min(100%, 520px); aspect-ratio: 4 / 5; background: #F1EFEC; overflow: hidden">
+            <div style="position: absolute; inset: 0; opacity: {{ bImg1 }}; transition: opacity .7s ease; display: grid; place-items: center"><div style="zoom: {{ benefitZoom }}; width:393px;height:852px;flex:none;position:relative;overflow:hidden;border-radius:38px;background:linear-gradient(180deg,#FBF7F1 0%,#F1EAE0 58%,#E5D9C8 100%);box-shadow:0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div><div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:22px;font:500 30px/1.06 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.035em;color:#281B09">Your list</div><div style="font:400 14px/1.6 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A;margin-top:8px">14 pieces saved from links, screenshots and photos.</div>
+<div style="margin-top:18px;display:flex;gap:8px"><span style="height:36px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.3);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">All 14</span><span style="height:36px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.14);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A">Autumn 6</span><span style="height:36px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.14);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A">Someday 8</span></div>
+<div style="margin-top:20px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px">
+<div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:200px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b1-item1" src="assets/images/11d79021-e108-4e6e-b68b-84e8265727a0.jpg" shape="rect" fit="cover" placeholder="Alma BB" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Alma BB</span><span style="font:400 11px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Saved today</span></div><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:200px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b1-item2" src="assets/images/aa07e73b-5765-4c4c-9694-2adac93be8a0.jpg" shape="rect" fit="cover" placeholder="Wool blazer" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Wool blazer</span><span style="font:400 11px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Saved 3 days ago</span></div><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:200px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b1-item3" src="assets/images/ae6850da-52ae-469e-bf02-71014d4d2ce9.jpg" shape="rect" fit="cover" placeholder="Suede loafer" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Suede loafer</span><span style="font:400 11px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Saved last week</span></div><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:200px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b1-item4" src="assets/images/23726c67-cd13-4a32-b439-ebaeea84b7a8.jpg" shape="rect" fit="cover" placeholder="Silk shirt" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 13px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Silk shirt</span><span style="font:400 11px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Saved 2 weeks ago</span></div>
+</div></div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(40,27,9,.35)"></div></div></div></div>
+            <div style="position: absolute; inset: 0; opacity: {{ bImg2 }}; transition: opacity .7s ease; display: grid; place-items: center"><div style="zoom: {{ benefitZoom }}; width:393px;height:852px;flex:none;position:relative;overflow:hidden;border-radius:38px;background:linear-gradient(180deg,#FBF7F1 0%,#F1EAE0 58%,#E5D9C8 100%);box-shadow:0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div><div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:22px;display:flex;align-items:center;gap:14px"><div style="width:64px;height:80px;flex:none"><div style="border-radius:14px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b2-item" src="assets/images/aa07e73b-5765-4c4c-9694-2adac93be8a0.jpg" shape="rect" fit="cover" placeholder="Item" style="width:100%;height:100%"></image-slot></div></div><div style="display:flex;flex-direction:column;gap:4px"><span style="font:500 15px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Suede loafer</span><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Chocolate · saved last week</span></div></div>
+<div style="margin-top:30px;font:500 26px/1.2 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.03em;color:#281B09">A strong fit. It works with five looks you already own.</div>
+<div style="margin-top:22px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px"><div style="height:120px"><div style="border-radius:12px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b2-look1" src="assets/images/d7138775-94d4-4cf2-ba20-a6eb6eee4582.jpg" shape="rect" fit="cover" placeholder="Look 1" style="width:100%;height:100%"></image-slot></div></div><div style="height:120px"><div style="border-radius:12px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b2-look2" src="assets/images/74782ae0-2f4b-475a-bd3d-4b9b7c16ec81.jpg" shape="rect" fit="cover" placeholder="Look 2" style="width:100%;height:100%"></image-slot></div></div><div style="height:120px"><div style="border-radius:12px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b2-look3" src="assets/images/55a7c676-c665-485e-8b02-70ff207c75c9.jpg" shape="rect" fit="cover" placeholder="Look 3" style="width:100%;height:100%"></image-slot></div></div></div>
+<div style="margin-top:22px"><div style="padding:14px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;flex-direction:column;gap:5px"><span style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#8A7660">WARDROBE</span><span style="font:400 14px/1.5 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Pairs with your wide trousers and dark denim.</span></div><div style="padding:14px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;flex-direction:column;gap:5px"><span style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#8A7660">LIFESTYLE</span><span style="font:400 14px/1.5 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Office days and weekend walks.</span></div><div style="padding:14px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;flex-direction:column;gap:5px"><span style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#8A7660">OVERLAP</span><span style="font:400 14px/1.5 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Nothing similar in your wardrobe.</span></div></div></div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(40,27,9,.35)"></div></div></div></div>
+            <div style="position: absolute; inset: 0; opacity: {{ bImg3 }}; transition: opacity .7s ease; display: grid; place-items: center"><div style="zoom: {{ benefitZoom }}; width:393px;height:852px;flex:none;position:relative;overflow:hidden;border-radius:38px;background:radial-gradient(120% 70% at 50% 30%,#4A3319 0%,#2C1E0B 46%,#150D03 100%);box-shadow:0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div><div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:22px;font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#B79E85">DAY 7 OF 7</div>
+<div style="margin-top:22px;height:300px"><div style="border-radius:22px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b3-item" src="assets/images/aa07e73b-5765-4c4c-9694-2adac93be8a0.jpg" shape="rect" fit="cover" placeholder="Saved piece" style="width:100%;height:100%"></image-slot></div></div>
+<div style="margin-top:28px;font:500 40px/1.06 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.035em;color:#F7EFE3">Still feels right?</div>
+<div style="font:400 14px/1.6 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:rgba(244,234,220,.74);margin-top:12px">You saved the wool blazer a week ago and opened it four times since.</div>
+<div style="flex:1"></div>
+<div style="height:54px;border-radius:16px;background:#F4EADC;display:flex;align-items:center;justify-content:center;font:600 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.16em;color:#281B09;flex:none">YES, STILL WANT IT</div>
+<div style="margin-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:10px"><div style="height:48px;border-radius:14px;border:1px solid rgba(244,234,220,.3);display:flex;align-items:center;justify-content:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC">Wait another week</div><div style="height:48px;border-radius:14px;border:1px solid rgba(244,234,220,.3);display:flex;align-items:center;justify-content:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#F4EADC">Let it go</div></div>
+<div style="height:44px;flex:none"></div></div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(244,234,220,.45)"></div></div></div></div>
+            <div style="position: absolute; inset: 0; opacity: {{ bImg4 }}; transition: opacity .7s ease; display: grid; place-items: center"><div style="zoom: {{ benefitZoom }}; width:393px;height:852px;flex:none;position:relative;overflow:hidden;border-radius:38px;background:linear-gradient(180deg,#FBF7F1 0%,#F1EAE0 58%,#E5D9C8 100%);box-shadow:0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div><div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:22px;font:500 30px/1.06 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.035em;color:#281B09">Autumn plan</div><div style="font:400 14px/1.6 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A;margin-top:8px">Your plan for the season, at a glance.</div>
+<div style="margin-top:24px;border-radius:20px;background:#281B09;padding:20px;color:#F4EADC"><div style="font:500 10px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:.24em;color:#B79E85">PLANNED</div><div style="margin-top:8px;font:500 34px 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.03em">£1,420 <span style="font:400 15px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#B79E85">of £2,000</span></div><div style="margin-top:16px;height:6px;border-radius:3px;background:rgba(244,234,220,.16)"><div style="width:71%;height:100%;border-radius:3px;background:#F4EADC"></div></div></div>
+<div style="margin-top:18px"><div style="padding:12px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;align-items:center;gap:12px"><div style="width:44px;height:52px;flex:none"><div style="border-radius:10px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b4-item1" src="assets/images/aa07e73b-5765-4c4c-9694-2adac93be8a0.jpg" shape="rect" fit="cover" placeholder="Wool blazer" style="width:100%;height:100%"></image-slot></div></div><span style="flex:1;font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Wool blazer<br><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Ready</span></span><span style="font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">£420</span></div><div style="padding:12px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;align-items:center;gap:12px"><div style="width:44px;height:52px;flex:none"><div style="border-radius:10px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b4-item2" src="assets/images/ae6850da-52ae-469e-bf02-71014d4d2ce9.jpg" shape="rect" fit="cover" placeholder="Suede loafer" style="width:100%;height:100%"></image-slot></div></div><span style="flex:1;font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Suede loafer<br><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Waiting</span></span><span style="font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">£310</span></div><div style="padding:12px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;align-items:center;gap:12px"><div style="width:44px;height:52px;flex:none"><div style="border-radius:10px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b4-item3" src="assets/images/23726c67-cd13-4a32-b439-ebaeea84b7a8.jpg" shape="rect" fit="cover" placeholder="Silk shirt" style="width:100%;height:100%"></image-slot></div></div><span style="flex:1;font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Silk shirt<br><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Ready</span></span><span style="font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">£190</span></div><div style="padding:12px 0;border-top:1px solid rgba(40,27,9,.14);display:flex;align-items:center;gap:12px"><div style="width:44px;height:52px;flex:none"><div style="border-radius:10px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b4-item4" src="assets/images/11d79021-e108-4e6e-b68b-84e8265727a0.jpg" shape="rect" fit="cover" placeholder="Alma BB" style="width:100%;height:100%"></image-slot></div></div><span style="flex:1;font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Alma BB<br><span style="font:400 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#8A7660">Comparing</span></span><span style="font:500 14px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">£500</span></div></div></div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(40,27,9,.35)"></div></div></div></div>
+            <div style="position: absolute; inset: 0; opacity: {{ bImg5 }}; transition: opacity .7s ease; display: grid; place-items: center"><div style="zoom: {{ benefitZoom }}; width:393px;height:852px;flex:none;position:relative;overflow:hidden;border-radius:38px;background:linear-gradient(180deg,#FBF7F1 0%,#F1EAE0 58%,#E5D9C8 100%);box-shadow:0 30px 70px rgba(20,12,4,.22)"><div style="position:absolute;top:0;left:0;right:0;height:54px;display:flex;align-items:flex-end;justify-content:space-between;padding:0 26px 6px;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09;z-index:5"><span>9:41</span><span style="letter-spacing:.1em;opacity:.75">▮▮ ▮</span></div><div style="position:absolute;top:54px;left:0;right:0;bottom:0;padding:0 26px;display:flex;flex-direction:column">
+<div style="margin-top:22px;font:500 30px/1.06 'Archivo','Helvetica Neue',Helvetica,sans-serif;letter-spacing:-.035em;color:#281B09">This week</div><div style="font:400 14px/1.6 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#5C4C3A;margin-top:8px">Five outfits from what you own, plus one new piece.</div>
+<div style="margin-top:22px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px"><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:210px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b5-outfit1" src="assets/images/e3f93918-651e-4d75-b0ba-71cf6bbde3bb.webp" shape="rect" fit="cover" placeholder="Outfit 1" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Mon · Office</span></div><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:210px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b5-outfit2" src="assets/images/a008b682-ed38-48e5-b6a7-ae50ab9836df.webp" shape="rect" fit="cover" placeholder="Outfit 2" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Wed · Dinner</span></div><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:210px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b5-outfit3" src="assets/images/bfbb5412-3ee2-42b1-84d7-8ce18aac9203.webp" shape="rect" fit="cover" placeholder="Outfit 3" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Fri · Travel</span></div><div style="display:flex;flex-direction:column;gap:8px;min-width:0"><div style="height:210px"><div style="border-radius:16px;overflow:hidden;background:#FFFFFF;width:100%;height:100%"><image-slot id="v4-b5-outfit4" src="assets/images/55a7c676-c665-485e-8b02-70ff207c75c9.jpg" shape="rect" fit="cover" placeholder="Outfit 4" style="width:100%;height:100%"></image-slot></div></div><span style="font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Sun · Gallery</span></div></div>
+<div style="margin-top:18px;display:flex;gap:8px"><span style="height:36px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.3);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">Uses 11 pieces</span><span style="height:36px;padding:0 14px;border-radius:12px;border:1px solid rgba(40,27,9,.3);display:flex;align-items:center;font:500 12px 'Archivo','Helvetica Neue',Helvetica,sans-serif;color:#281B09">1 new: loafer</span></div></div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(40,27,9,.35)"></div></div></div></div>
+          </div>
+        </sc-if>
+      </div>
+    </section>
+
+    <section aria-labelledby="cm4-transform-h" style="background: #F7F7F5">
+      <div style="max-width: 1200px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px)">
+        <h2 id="cm4-transform-h" style="text-align: center; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em">Shopping can feel <span style="font-style: italic; color: #483D2E">less random.</span></h2>
+
+        <div role="table" aria-label="Before and with Carmella" style="margin-top: clamp(44px, 5.4vw, 88px); display: grid; gap: clamp(14px, 1.6vw, 22px)">
+          <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px)">
+            <span role="columnheader" style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #625B54">Before</span>
+            <span role="columnheader" style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #483D2E">With Carmella</span>
+          </div>
+          <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
+            <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Saved items scattered across apps</span>
+            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">One thoughtful consideration space</span>
+          </div>
+          <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
+            <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">An item judged on its own</span>
+            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">The item seen with wardrobe and lifestyle context</span>
+          </div>
+          <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
+            <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Sale pressure and instant checkout</span>
+            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">Time to think before deciding</span>
+          </div>
+          <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
+            <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Budget guilt or no visibility</span>
+            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">A calm view of the plan</span>
+          </div>
+          <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
+            <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Another isolated purchase</span>
+            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">A piece chosen for the wardrobe as a whole</span>
+          </div>
+        </div>
+
+        <div style="margin-top: clamp(64px, 8vw, 128px); display: grid; justify-items: center; gap: clamp(28px, 3vw, 40px); text-align: center">
+          <p style="max-width: 20ch; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(32px, 4.4vw, 68px); line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance">A considered yes feels better. <span style="font-style: italic; color: #483D2E">So does a confident no.</span></p>
+          <a href="#waitlist" sc-camel-on-click="{{ onMidCta }}" style="display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 34px; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; transition: background .3s ease" style-hover="background: #483D2E; color: #FFFFFF">Join the waitlist</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="point-of-view" aria-labelledby="cm4-pov-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(40px, 6vw, 120px); align-items: center">
+      <img loading="lazy" src="assets/images/ef0ba4af-21fb-4f13-a37c-3f96a43bbda2.jpg" width="1100" height="1650" alt="Black-and-white studio portrait of a woman in an oversized jacket and boots, kneeling." style="width: 100%; height: auto; aspect-ratio: 2 / 3; max-height: 860px; object-fit: cover; object-position: 50% 50%; background: #2A2A2A">
+      <div>
+        <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Our point of view</p>
+        <h2 id="cm4-pov-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">Loving fashion was <span style="font-style: italic; color: #483D2E">never the problem.</span></h2>
+        <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 52ch; font-size: clamp(17px, 1.3vw, 19.5px); line-height: 1.7; color: #4A423B"><span aria-hidden="true" style="float: left; font-family: 'Bodoni Moda', Didot, serif; font-size: 4.4em; line-height: 0.82; padding: 6px 12px 0 0; color: #281B09">C</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">C</span>armella is being built for women who want beautiful things and better decisions. Not a smaller life. Not a stricter wardrobe. Just more space to think, more context before buying, and more confidence in what finally earns a place.</p>
+        <blockquote style="margin-top: clamp(32px, 3.6vw, 52px)">
+          <p style="max-width: 22ch; font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.2; color: #483D2E">“Shop with intention. Build a wardrobe that works.”</p>
+        </blockquote>
+      </div>
+    </section>
+
+    <section aria-labelledby="cm4-faq-h" style="background: #F7F7F5">
+      <div style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(36px, 5vw, 96px); align-items: start">
+        <div style="position: {{ faqSticky }}; top: 110px">
+          <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Questions</p>
+          <h2 id="cm4-faq-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em">Good to <span style="font-style: italic; color: #483D2E">know.</span></h2>
+        </div>
+
+        <div style="display: grid; gap: 8px">
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="what-is-carmella" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>What is Carmella?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark1 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">Carmella is a new way to plan what you want, understand what belongs in your wardrobe, and make clearer decisions before you buy.</p>
+          </details>
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="availability" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Is Carmella available now?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark2 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">Not yet. We’re building the first version now. Join the waitlist to hear about early access.</p>
+          </details>
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="anti-shopping" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Will Carmella tell me to stop shopping?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark3 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">No. Carmella is not anti-shopping or about owning as little as possible. It is designed to help you choose more intentionally and enjoy what you buy more.</p>
+          </details>
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="wardrobe-upload" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Do I need to upload my entire wardrobe?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark4 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">No. Carmella is designed to learn useful wardrobe context gradually. You can start with a few basics and add more only when it helps.</p>
+          </details>
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="budget-required" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Is a fashion budget required?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark5 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">No. Budget is an optional clarity layer, not a restriction. The purpose is to help you see where a purchase fits in your plan.</p>
+          </details>
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="pricing" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>How much will Carmella cost?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark6 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">Pricing will be shared closer to launch. Waitlist members will hear first about early access and launch details.</p>
+          </details>
+          <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="after-joining" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>What happens after I join?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark7 }}</span></summary>
+            <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">You’ll receive occasional product updates and an invitation when early access becomes available.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="waitlist" aria-labelledby="cm4-waitlist-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: clamp(40px, 6vw, 120px); align-items: center">
+      <div>
+        <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Early access</p>
+        <h2 id="cm4-waitlist-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(40px, 5.4vw, 88px); line-height: 1.02; letter-spacing: -0.025em; text-wrap: balance">Make your next “yes” <span style="font-style: italic; color: #483D2E">more certain.</span></h2>
+        <p style="margin-top: clamp(20px, 2.4vw, 30px); max-width: 44ch; font-size: clamp(17px, 1.3vw, 19px); line-height: 1.6; color: #4A423B">Join the Carmella waitlist for early access and thoughtful updates as we build a better way to shop.</p>
+
+        <div style="margin-top: clamp(28px, 3vw, 44px); max-width: 520px">
+          <sc-if value="{{ showForm }}" hint-placeholder-val="{{ true }}">
+            <form sc-camel-on-submit="{{ onSubmit }}" sc-camel-no-validate="{{ true }}" action="/api/waitlist" method="post" style="display: grid; gap: 12px">
+              <label for="cm4-email" style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #625B54">Email address</label>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 8px">
+                <input id="cm4-email" name="email" type="email" sc-camel-input-mode="email" sc-camel-auto-complete="email" required="{{ true }}" placeholder="you@example.com" aria-invalid="{{ ariaInvalid }}" aria-describedby="cm4-form-msg cm4-privacy" value="{{ email }}" sc-camel-on-change="{{ onEmailChange }}" sc-camel-on-focus="{{ onEmailFocus }}" style="width: 100%; min-height: 54px; padding: 0 18px; background: #FFFFFF; color: #281B09; border: 1.5px solid {{ inputBorder }}; border-radius: 2px; font-size: 17px; outline: none" style-focus="border-color: #281B09; box-shadow: 0 0 0 2px #281B09">
+                <button type="submit" disabled="{{ submitDisabled }}" aria-busy="{{ isLoading }}" style="min-height: 54px; padding: 0 28px; background: #281B09; color: #FFFFFF; border: 0; border-radius: 2px; font-family: Jost, sans-serif; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; cursor: {{ ctaCursor }}; opacity: {{ ctaOpacity }}; transition: background .3s ease" style-hover="background: #483D2E">{{ submitLabel }}</button>
+              </div>
+              <p id="cm4-form-msg" role="status" aria-live="polite" style="min-height: 22px; font-size: 14.5px; line-height: 1.45; color: {{ messageColor }}">{{ formMessage }}</p>
+              <p id="cm4-privacy" style="font-size: 13.5px; line-height: 1.55; color: #625B54; max-width: 46ch">By joining, you agree to receive Carmella updates. Unsubscribe at any time. See <a href="/privacy" style="border-bottom: 1px solid #C9C3BC" style-hover="border-bottom-color: #483D2E">Privacy Policy</a>.</p>
+            </form>
+          </sc-if>
+
+          <sc-if value="{{ isSuccess }}">
+            <div role="status" aria-live="polite" style="background: #F7F7F5; padding: clamp(24px, 2.6vw, 36px); animation: cm-fade .4s ease both">
+              <p style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(28px, 2.6vw, 38px); line-height: 1.1">You’re on <span style="font-style: italic; color: #483D2E">the list.</span></p>
+              <p style="margin-top: 10px; font-size: 16.5px; line-height: 1.6; color: #4A423B">We’ll let you know when Carmella is ready.</p>
+              <a href="https://www.instagram.com/carmella.app" style="display: inline-flex; align-items: center; min-height: 44px; margin-top: 10px; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; border-bottom: 1px solid #C9C3BC" style-hover="color: #483D2E; border-bottom-color: #483D2E">Follow @carmella.app</a>
+            </div>
+          </sc-if>
+        </div>
+      </div>
+
+      <figure style="position: relative; justify-self: end; width: min(100%, 600px)">
+        <div style="width: 100%; aspect-ratio: 4 / 5; background: #F1EFEC; overflow: hidden"><image-slot fit="cover" id="v4-waitlist-flatlay" src="assets/images/5ff9157d-c377-41af-bb40-3509311ac1aa.webp" shape="rect" placeholder="Fashion flat lay: magazines, bag, outfit pieces, lived-in mess" style="width:100%;height:100%"></image-slot></div>
+      </figure>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo" style="background: #281B09; color: #FFFFFF">
+    <div style="max-width: 1440px; margin: 0 auto; padding: clamp(56px, 7vw, 110px) clamp(20px, 3.4vw, 56px) {{ footerPadBottom }}">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: clamp(28px, 3vw, 48px)">
+        <p style="max-width: 22ch; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(22px, 2vw, 30px); line-height: 1.2">Shop with intention. <span style="font-style: italic; color: #E4D7C4">Build a wardrobe that works.</span></p>
+        <div style="display: grid; gap: 4px; align-content: start">
+          <p style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #C9BBA6">Follow</p>
+          <a href="https://www.instagram.com/carmella.app" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">Instagram @carmella.app</a>
+          <a href="https://www.tiktok.com/@carmella.app" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">TikTok @carmella.app</a>
+          <a href="https://www.threads.net/@carmella.app" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">Threads @carmella.app</a>
+        </div>
+        <div style="display: grid; gap: 4px; align-content: start">
+          <p style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #C9BBA6">Contact</p>
+          <a href="mailto:hello@carmella.app" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">hello@carmella.app</a>
+        </div>
+        <div style="display: grid; gap: 4px; align-content: start">
+          <p style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #C9BBA6">Legal</p>
+          <a href="/privacy" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">Privacy Policy</a>
+          <a href="/terms" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">Terms</a>
+        </div>
+      </div>
+
+      <p aria-hidden="true" style="margin-top: clamp(56px, 7vw, 110px); text-align: center; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(56px, 15vw, 236px); line-height: 0.9; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF; padding-left: 0.06em">Carmella</p>
+
+      <div style="margin-top: clamp(28px, 3vw, 44px); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12px; letter-spacing: 0.08em; color: #C9BBA6">
+        <span>© 2026 Carmella</span>
+        <span>Imagery: Pexels placeholders, to be replaced with original photography</span>
+      </div>
+    </div>
+  </footer>
+
+  <sc-if value="{{ showMobileCta }}">
+    <div style="position: fixed; left: 0; right: 0; bottom: 0; z-index: 55; background: #FFFFFF; padding: 10px 16px calc(10px + env(safe-area-inset-bottom)); box-shadow: 0 -10px 30px rgba(40,27,9,0.08); animation: cm-fade .3s ease both">
+      <a href="#waitlist" sc-camel-on-click="{{ onStickyCta }}" style="display: flex; align-items: center; justify-content: center; min-height: 52px; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase">Join the waitlist</a>
+    </div>
+  </sc-if>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script="" data-props="{&quot;formStateOverride&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;live&quot;,&quot;default&quot;,&quot;loading&quot;,&quot;success&quot;,&quot;duplicate&quot;,&quot;invalid&quot;,&quot;error&quot;],&quot;default&quot;:&quot;live&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Waitlist form&quot;},&quot;mobileStickyCta&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Waitlist form&quot;},&quot;staggerSteps&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Layout&quot;}}">
+class Component extends DCLogic {
+  state = {
+    email: "",
+    status: "default",
+    touched: false,
+    scrolled: false,
+    width: typeof window !== "undefined" ? window.innerWidth : 1440,
+    menuOpen: false,
+    pastHero: false,
+    nearWaitlist: false,
+    benefit: 0,
+    openFaq: {}
+  };
+
+  faqKeys = ["what-is-carmella", "availability", "anti-shopping", "wardrobe-upload", "budget-required", "pricing", "after-joining"];
+  existing = ["ada@carmella.app", "already@example.com"];
+
+  componentDidMount() {
+    this.onScroll = () => {
+      const y = window.scrollY || 0;
+      const wl = document.getElementById("waitlist");
+      const near = wl ? wl.getBoundingClientRect().top < window.innerHeight : false;
+      const next = { scrolled: y > 24, pastHero: y > Math.min(700, window.innerHeight * 0.8), nearWaitlist: near };
+      if (next.scrolled !== this.state.scrolled || next.pastHero !== this.state.pastHero || next.nearWaitlist !== this.state.nearWaitlist) this.setState(next);
+    };
+    this.onResize = () => {
+      if (Math.abs(window.innerWidth - this.state.width) > 4) this.setState({ width: window.innerWidth, menuOpen: false });
+    };
+    window.addEventListener("scroll", this.onScroll, { passive: true });
+    window.addEventListener("resize", this.onResize);
+    this.onScroll();
+    this.onResize();
+    this.track("landing_view", { source: this.source(), device_class: window.innerWidth < 860 ? "mobile" : "desktop" });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.onScroll);
+    window.removeEventListener("resize", this.onResize);
+    clearTimeout(this.timer);
+  }
+
+  source() {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      return p.get("utm_source") || (document.referrer ? "referral" : "direct");
+    } catch (e) { return "direct"; }
+  }
+
+  track(event, props) {
+    (window.dataLayer = window.dataLayer || []).push(Object.assign({ event: event }, props || {}));
+  }
+
+  valid(v) { return /^[^\s@]+@[^\s@]+\.[a-z]{2,}$/i.test(String(v || "").trim()); }
+
+  effectiveStatus() {
+    const o = this.props.formStateOverride;
+    return o && o !== "live" ? o : this.state.status;
+  }
+
+  submit = (e) => {
+    if (e && e.preventDefault) e.preventDefault();
+    const email = this.state.email.trim().toLowerCase();
+    if (this.state.status === "loading") return;
+    this.track("waitlist_submit", { form_placement: "final", source: this.source() });
+    if (!this.valid(email)) {
+      this.setState({ status: "invalid", touched: true });
+      this.track("waitlist_error", { error_category: "validation" });
+      return;
+    }
+    this.setState({ status: "loading" });
+    clearTimeout(this.timer);
+    var params;
+    try { params = new URLSearchParams(window.location.search); } catch (err) { params = new URLSearchParams(); }
+    fetch("/api/waitlist", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: email,
+        consent_version: "2026-10-25",
+        source: this.source(),
+        utm_source: params.get("utm_source") || "",
+        utm_medium: params.get("utm_medium") || "",
+        utm_campaign: params.get("utm_campaign") || "",
+        referrer: document.referrer || ""
+      })
+    }).then((res) => res.json().catch(() => ({})).then((data) => ({ res: res, data: data }))).then((out) => {
+      if (out.data && out.data.status === "duplicate") {
+        this.setState({ status: "duplicate" });
+        this.track("waitlist_success", { form_placement: "final", source: this.source(), duplicate: true });
+        return;
+      }
+      if (!out.res.ok) {
+        this.setState({ status: "error" });
+        this.track("waitlist_error", { error_category: "server" });
+        return;
+      }
+      this.setState({ status: "success" });
+      this.track("waitlist_success", { form_placement: "final", source: this.source(), duplicate: false });
+    }).catch(() => {
+      this.setState({ status: "error" });
+      this.track("waitlist_error", { error_category: "network" });
+    });
+  };
+
+  renderVals() {
+    const st = this.effectiveStatus();
+    const isMobile = this.state.width < 860;
+    const loading = st === "loading";
+    const success = st === "success";
+    const forced = this.props.formStateOverride && this.props.formStateOverride !== "live";
+    const emailOk = this.valid(this.state.email) || forced;
+    const b = this.state.benefit;
+    if (!this.bPanelRef) this.bPanelRef = React.createRef();
+    if (!this._bObs && typeof ResizeObserver !== "undefined") {
+      this._bObs = new ResizeObserver(() => { const el = this.bPanelRef.current; if (!el) return; const z = Math.round(el.clientHeight * 0.9 / 852 * 1000) / 1000; if (z > 0 && Math.abs(z - (this.state.bZoom || 0)) > 0.002) this.setState({ bZoom: z }); });
+      setTimeout(() => { if (this.bPanelRef.current) this._bObs.observe(this.bPanelRef.current); }, 0);
+    } else if (this._bObs && this.bPanelRef.current && this._bObsEl !== this.bPanelRef.current) { this._bObsEl = this.bPanelRef.current; this._bObs.observe(this._bObsEl); }
+    const compact = this.state.width < 1100;
+    const vw = Math.min(this.state.width, 1440);
+    const pad = Math.min(56, Math.max(20, this.state.width * 0.034));
+    const gap = Math.min(40, Math.max(20, this.state.width * 0.024));
+    const inner = vw - pad * 2;
+    const cols = Math.max(1, Math.min(3, Math.floor((inner + gap) / (300 + gap))));
+    const cardW = (inner - (cols - 1) * gap) / cols;
+    const phoneZoom = Math.max(0.3, Math.round((cardW * 1.25 * 0.86 / 852) * 1000) / 1000);
+    const stagger = this.props.staggerSteps !== false && this.state.width >= 1000;
+
+    let message = "";
+    let messageColor = "#625B54";
+    if (st === "invalid") { message = "Enter a valid email address."; messageColor = "#8C2B24"; }
+    else if (st === "error") { message = "Something went wrong. Please try again."; messageColor = "#8C2B24"; }
+    else if (st === "duplicate") { message = "You’re already on the list. We’ll be in touch."; messageColor = "#3F6B4F"; }
+    else if (loading) { message = "Joining…"; }
+
+    const setB = (i) => () => { if (this.state.benefit !== i) this.setState({ benefit: i }); };
+    const vals = {
+      email: this.state.email,
+      onEmailChange: (e) => this.setState({ email: e.target.value, status: (this.state.status === "invalid" || this.state.status === "error") ? "default" : this.state.status }),
+      onEmailFocus: () => { if (!this.state.touched) { this.setState({ touched: true }); this.track("waitlist_form_start", { form_placement: "final" }); } },
+      onSubmit: this.submit,
+      showForm: !success,
+      isSuccess: success,
+      isLoading: loading,
+      submitLabel: loading ? "Joining…" : "Join the waitlist",
+      submitDisabled: loading || !emailOk,
+      ctaCursor: loading || !emailOk ? "not-allowed" : "pointer",
+      ctaOpacity: loading || !emailOk ? 0.45 : 1,
+      ariaInvalid: st === "invalid" ? "true" : "false",
+      inputBorder: (st === "invalid" || st === "error") ? "#8C2B24" : "#8A8279",
+      formMessage: message,
+      messageColor: messageColor,
+
+      isDesktop: !isMobile,
+      isMobile: isMobile,
+      navFull: !compact,
+      navCompact: compact,
+      phoneOrder: isMobile ? 2 : 0,
+      stagger1: stagger ? "72px" : "0px",
+      stagger2: stagger ? "144px" : "0px",
+      faqSticky: isMobile ? "static" : "sticky",
+      phoneZoom: phoneZoom,
+      bPanelRef: this.bPanelRef,
+      benefitZoom: this.state.bZoom || 0.6,
+
+      headerShadow: this.state.scrolled ? "0 1px 24px rgba(40,27,9,0.07)" : "none",
+      headerHeight: this.state.scrolled ? "68px" : (isMobile ? "72px" : "88px"),
+      headerCtaLabel: isMobile ? "Join" : "Join the waitlist",
+      headerCtaHeight: isMobile ? "44px" : "48px",
+      headerCtaPad: isMobile ? "16px" : "24px",
+
+      menuOpen: this.state.menuOpen,
+      menuLabel: this.state.menuOpen ? "Close menu" : "Open menu",
+      toggleMenu: () => this.setState({ menuOpen: !this.state.menuOpen }),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      showMobileCta: isMobile && this.props.mobileStickyCta !== false && this.state.pastHero && !this.state.nearWaitlist && !success,
+      footerPadBottom: isMobile ? "96px" : "32px",
+
+      onHeaderCta: () => this.track("hero_waitlist_click", { placement: "header" }),
+      onHeroCta: () => this.track("hero_waitlist_click", { placement: "hero" }),
+      onMidCta: () => this.track("hero_waitlist_click", { placement: "transformation" }),
+      onStickyCta: () => this.track("hero_waitlist_click", { placement: "mobile_sticky" }),
+      onHowItWorks: () => this.track("how_it_works_click", { placement: "hero" }),
+      onFaqToggle: (e) => {
+        const key = e.target.getAttribute("data-faq");
+        const open = e.target.open;
+        if (open) this.track("faq_open", { question: key });
+        const next = Object.assign({}, this.state.openFaq);
+        next[key] = open;
+        this.setState({ openFaq: next });
+      }
+    };
+    for (let i = 0; i < 5; i++) {
+      vals["b" + (i + 1)] = setB(i);
+      vals["bOp" + (i + 1)] = isMobile || b === i ? 1 : 0.38;
+      vals["bImg" + (i + 1)] = b === i ? 1 : 0;
+    }
+    this.faqKeys.forEach((k, i) => { vals["faqMark" + (i + 1)] = this.state.openFaq[k] ? "–" : "+"; });
+    return vals;
+  }
+}
+
+</script>
+
+
+</body></html>
