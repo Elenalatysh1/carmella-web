@@ -2,6 +2,8 @@
 <html><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
 
 
@@ -22,6 +24,8 @@
 <x-dc>
 <helmet>
 <title>Carmella — Shop with Intention. Build a Wardrobe That Works.</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="description" content="Carmella helps you see what fits your wardrobe, lifestyle, and shopping plan before you buy. Join the waitlist for early access.">
 <link rel="canonical" href="https://carmella.app/">
 <meta property="og:title" content="Carmella — Love fashion. Build a wardrobe that works.">
@@ -30,6 +34,7 @@
 <script src="js/image-slot.js"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
 <style>/* vietnamese */
 @font-face {
   font-family: 'Archivo';
@@ -361,7 +366,7 @@
         </button>
       </sc-if>
 
-      <a href="#top" aria-label="Carmella home" style="font-family: 'Bodoni Moda', Didot, 'Times New Roman', serif; font-size: clamp(22px, 2.1vw, 30px); font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; line-height: 1; padding-left: 0.24em">Carmella</a>
+      <a href="#top" aria-label="Carmella home" style="font-family: 'Playfair Display', Didot, 'Times New Roman', serif; font-size: clamp(22px, 2.1vw, 30px); font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; line-height: 1; padding-left: 0.24em">Carmella</a>
 
       <div style="justify-self: end">
         <a href="#waitlist" sc-camel-on-click="{{ onHeaderCta }}" style="display: inline-flex; align-items: center; min-height: {{ headerCtaHeight }}; padding: 0 {{ headerCtaPad }}; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 11.5px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; white-space: nowrap; transition: background .3s ease" style-hover="background: #483D2E; color: #FFFFFF">{{ headerCtaLabel }}</a>
@@ -370,9 +375,9 @@
 
     <sc-if value="{{ menuOpen }}">
       <nav id="cm4-menu" aria-label="Primary" style="background: #FFFFFF; padding: 8px 20px 32px; display: grid; gap: 4px; box-shadow: 0 18px 30px rgba(40,27,9,0.08); animation: cm-fade .25s ease both">
-        <a href="#how-it-works" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Bodoni Moda', Didot, serif; font-size: 32px">How it works</a>
-        <a href="#why-carmella" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Bodoni Moda', Didot, serif; font-size: 32px">Why Carmella</a>
-        <a href="#point-of-view" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Bodoni Moda', Didot, serif; font-size: 32px; font-style: italic">Our point of view</a>
+        <a href="#how-it-works" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Playfair Display', Didot, serif; font-size: 32px">How it works</a>
+        <a href="#why-carmella" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Playfair Display', Didot, serif; font-size: 32px">Why Carmella</a>
+        <a href="#point-of-view" sc-camel-on-click="{{ closeMenu }}" style="display: flex; align-items: center; min-height: 60px; font-family: 'Playfair Display', Didot, serif; font-size: 32px; font-style: italic">Our point of view</a>
       </nav>
     </sc-if>
   </header>
@@ -387,7 +392,7 @@
 
       <div style="margin-top: clamp(24px, 3vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); gap: clamp(32px, 4vw, 72px); align-items: end">
         <div style="animation: cm-rise .9s cubic-bezier(.16,.84,.28,1) both">
-          <h1 id="cm4-hero-h" style="font-family: 'Bodoni Moda', Didot, 'Times New Roman', serif; font-weight: 400; font-size: clamp(46px, 7.2vw, 118px); line-height: 0.98; letter-spacing: -0.025em; text-wrap: balance">Love fashion. <span style="font-style: italic; color: #483D2E">Build a wardrobe that works.</span></h1>
+          <h1 id="cm4-hero-h" style="font-family: 'Playfair Display', Didot, 'Times New Roman', serif; font-weight: 400; font-size: clamp(46px, 7.2vw, 118px); line-height: 0.98; letter-spacing: -0.025em; text-wrap: balance">Love fashion. <span style="font-style: italic; color: #483D2E">Build a wardrobe that works.</span></h1>
           <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 46ch; font-size: clamp(17px, 1.3vw, 19.5px); line-height: 1.6; color: #4A423B">Carmella helps you pause before you buy, see what fits your real wardrobe and lifestyle, and choose pieces you’ll actually wear.</p>
           <div style="margin-top: clamp(28px, 3vw, 40px); display: flex; flex-wrap: wrap; align-items: center; gap: 14px 28px">
             <a href="#waitlist" sc-camel-on-click="{{ onHeroCta }}" style="display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 34px; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; transition: background .3s ease" style-hover="background: #483D2E; color: #FFFFFF">Join the waitlist</a>
@@ -401,7 +406,7 @@
             <div style="width: 100%; aspect-ratio: 400 / 564; background: #F1EFEC; overflow: hidden"><image-slot fit="cover" id="v4-hero-main" src="assets/images/76517059-f7be-48a7-b639-b92a2f5ca5fa.webp" shape="rect" placeholder="Hero: editorial Parisian fashion portrait" style="width:100%;height:100%"></image-slot></div>
             <figcaption aria-hidden="true" style="position: absolute; left: clamp(12px, 1.4vw, 20px); bottom: clamp(12px, 1.4vw, 20px); width: min(250px, calc(100% - 24px)); background: rgba(255,255,255,0.94); padding: 14px 16px; display: grid; gap: 10px; box-shadow: 0 12px 32px rgba(20,12,4,0.12)">
               <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px"><span style="font-size: 10px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #625B54">On your list</span><span style="font-size: 10px; letter-spacing: 0.14em; text-transform: uppercase; color: #625B54">Day 3</span></div>
-              <p style="font-family: 'Bodoni Moda', Didot, serif; font-size: 19px; line-height: 1.15; color: #281B09">Ivory draped top</p>
+              <p style="font-family: 'Playfair Display', Didot, serif; font-size: 19px; line-height: 1.15; color: #281B09">Ivory draped top</p>
               <div style="display: flex; flex-wrap: wrap; gap: 6px"><span style="font-size: 11px; padding: 5px 9px; border: 1px solid #E7E4E0; color: #281B09; white-space: nowrap">White trousers</span><span style="font-size: 11px; padding: 5px 9px; border: 1px solid #E7E4E0; color: #281B09; white-space: nowrap">Black belt</span><span style="font-size: 11px; padding: 5px 9px; border: 1px solid #E7E4E0; color: #281B09; white-space: nowrap">+4 looks</span></div>
             </figcaption>
           </figure>
@@ -409,7 +414,7 @@
             <div style="width: 100%; aspect-ratio: 2 / 3; background: #F1EFEC; overflow: hidden"><image-slot fit="cover" id="v4-hero-shoe" src="assets/images/399e5e0c-8f3c-4c82-9cc9-a8e49d7286cd.webp" shape="rect" placeholder="Chocolate-brown shoe, still life" style="width:100%;height:100%"></image-slot></div>
             <div style="background: #F7F7F5; padding: clamp(14px, 1.4vw, 20px)">
               <p style="font-size: 10.5px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #625B54">Product preview</p>
-              <p style="margin-top: 10px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 24px); line-height: 1.1; font-style: italic">Wait and compare.</p>
+              <p style="margin-top: 10px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 24px); line-height: 1.1; font-style: italic">Wait and compare.</p>
               <p style="margin-top: 8px; font-size: 13.5px; line-height: 1.45; color: #4A423B">Louis Vuitton Alma BB · saved today</p>
             </div>
           </div>
@@ -422,8 +427,8 @@
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(36px, 5vw, 96px); align-items: center">
           <div>
             <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">The familiar problem</p>
-            <h2 id="cm4-recognition-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">The problem isn’t wanting beautiful things.</h2>
-            <p style="margin-top: clamp(14px, 1.6vw, 22px); font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(24px, 2.6vw, 40px); line-height: 1.16; color: #483D2E; text-wrap: balance">It’s buying them without seeing the bigger picture.</p>
+            <h2 id="cm4-recognition-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">The problem isn’t wanting beautiful things.</h2>
+            <p style="margin-top: clamp(14px, 1.6vw, 22px); font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: clamp(24px, 2.6vw, 40px); line-height: 1.16; color: #483D2E; text-wrap: balance">It’s buying them without seeing the bigger picture.</p>
             <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 52ch; font-size: clamp(17px, 1.25vw, 19px); line-height: 1.65; color: #4A423B">A saved post here. A cart there. A sale that suddenly feels urgent. Another beautiful piece that works in theory, but not with the life or wardrobe you already have.</p>
           </div>
           <img loading="lazy" src="assets/images/2dac907e-3fb2-4592-9cb8-d0e6660440f9.jpg" width="1000" height="1500" alt="Close-up of a gold earring and white collar beside an open fashion magazine." style="width: min(100%, 520px); justify-self: end; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 55%; background: #EDEAE5">
@@ -431,23 +436,23 @@
 
         <ol style="list-style: none; padding: 0; margin-top: clamp(56px, 7vw, 112px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: clamp(36px, 4vw, 72px)">
           <li>
-            <p aria-hidden="true" style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">i.</p>
-            <h3 style="margin-top: 18px; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">Saved everywhere</h3>
+            <p aria-hidden="true" style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">i.</p>
+            <h3 style="margin-top: 18px; font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">Saved everywhere</h3>
             <p style="margin-top: 12px; max-width: 36ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Screenshots, links, wishlists, and carts—without one place to compare what matters.</p>
           </li>
           <li>
-            <p aria-hidden="true" style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">ii.</p>
-            <h3 style="margin-top: 18px; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">Beautiful, but difficult to wear</h3>
+            <p aria-hidden="true" style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">ii.</p>
+            <h3 style="margin-top: 18px; font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">Beautiful, but difficult to wear</h3>
             <p style="margin-top: 12px; max-width: 36ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">The piece was right on its own. The wardrobe around it was never considered.</p>
           </li>
           <li>
-            <p aria-hidden="true" style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">iii.</p>
-            <h3 style="margin-top: 18px; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">A full wardrobe that still feels unfinished</h3>
+            <p aria-hidden="true" style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: clamp(44px, 4.4vw, 68px); line-height: 1; color: #483D2E">iii.</p>
+            <h3 style="margin-top: 18px; font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(24px, 2vw, 30px); line-height: 1.15">A full wardrobe that still feels unfinished</h3>
             <p style="margin-top: 12px; max-width: 36ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">More clothes do not always create more outfits.</p>
           </li>
         </ol>
 
-        <p style="margin: clamp(64px, 8vw, 128px) auto 0; max-width: 28ch; text-align: center; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(26px, 3vw, 46px); line-height: 1.2; letter-spacing: -0.01em; text-wrap: balance">Carmella creates a pause between desire and decision—<span style="font-style: italic; color: #483D2E">without taking the joy out of fashion.</span></p>
+        <p style="margin: clamp(64px, 8vw, 128px) auto 0; max-width: 28ch; text-align: center; font-family: 'Playfair Display', Didot, serif; font-size: clamp(26px, 3vw, 46px); line-height: 1.2; letter-spacing: -0.01em; text-wrap: balance">Carmella creates a pause between desire and decision—<span style="font-style: italic; color: #483D2E">without taking the joy out of fashion.</span></p>
       </div>
     </section>
 
@@ -455,7 +460,7 @@
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 24px clamp(36px, 5vw, 96px); align-items: end">
         <div>
           <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">How Carmella works</p>
-          <h2 id="cm4-how-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">From “I want it” to a decision <span style="font-style: italic; color: #483D2E">that feels clear.</span></h2>
+          <h2 id="cm4-how-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">From “I want it” to a decision <span style="font-style: italic; color: #483D2E">that feels clear.</span></h2>
         </div>
         <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #625B54">Three quiet steps between seeing something beautiful and deciding where it belongs.</p>
       </div>
@@ -474,8 +479,8 @@
 </div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(244,234,220,.45)"></div></div></div>
           </div>
           <div style="display: flex; align-items: baseline; gap: 16px">
-            <span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">01</span>
-            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">Save what catches your eye</h3>
+            <span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">01</span>
+            <h3 style="font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">Save what catches your eye</h3>
           </div>
           <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Paste a link, upload a screenshot, or add the item yourself. Wanting it is enough reason to save it. Buying can wait.</p>
         </li>
@@ -497,8 +502,8 @@
 </div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(40,27,9,.35)"></div></div></div>
           </div>
           <div style="display: flex; align-items: baseline; gap: 16px">
-            <span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">02</span>
-            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">See it in context</h3>
+            <span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">02</span>
+            <h3 style="font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">See it in context</h3>
           </div>
           <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Look at what it works with, whether it fits your lifestyle, what you already own, and where it belongs in your plan.</p>
         </li>
@@ -519,8 +524,8 @@
 </div><div style="position:absolute;left:0;right:0;bottom:0;height:30px;display:flex;align-items:center;justify-content:center;pointer-events:none;z-index:6"><div style="width:132px;height:4px;border-radius:2px;background:rgba(244,234,220,.45)"></div></div></div>
           </div>
           <div style="display: flex; align-items: baseline; gap: 16px">
-            <span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">03</span>
-            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">Decide without pressure</h3>
+            <span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 40px; line-height: 1; color: #483D2E">03</span>
+            <h3 style="font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(23px, 1.9vw, 28px); line-height: 1.15">Decide without pressure</h3>
           </div>
           <p style="max-width: 40ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Buy it. Wait. Skip it. Keep it as inspiration. Or look for a better alternative. Carmella makes the trade-offs visible; the choice remains yours.</p>
         </li>
@@ -539,11 +544,11 @@
                 <span style="letter-spacing: 0.04em">100%</span>
               </div>
               <div style="margin-top: 18px; display: flex; justify-content: space-between; align-items: baseline">
-                <p style="font-family: 'Bodoni Moda', Didot, serif; font-size: 22px">Considering</p>
+                <p style="font-family: 'Playfair Display', Didot, serif; font-size: 22px">Considering</p>
                 <p style="font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #625B54">Day 1 of 7</p>
               </div>
               <div style="margin-top: 12px; width: 100%; aspect-ratio: 4 / 3; border-radius: 14px; overflow: hidden; background: #FFFFFF"><image-slot id="v4-decision-alma" src="assets/images/6e5e5c1a-8963-4acd-b67a-d6abadb6a78e.webp" shape="rect" fit="cover" placeholder="LV Alma BB packshot" style="width:100%;height:100%"></image-slot></div>
-              <p style="margin-top: 12px; font-family: 'Bodoni Moda', Didot, serif; font-size: 18px; line-height: 1.2">Louis Vuitton Alma BB</p>
+              <p style="margin-top: 12px; font-family: 'Playfair Display', Didot, serif; font-size: 18px; line-height: 1.2">Louis Vuitton Alma BB</p>
               <p style="margin-top: 4px; font-size: 12.5px; color: #625B54"><a href="https://www.louisvuitton.com" style="color: #625B54; border-bottom: 1px solid #C9C3BC">louisvuitton.com</a> · Saved today</p>
               <p style="margin-top: 14px; font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #625B54">Works with</p>
               <div style="margin-top: 8px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; align-items: start">
@@ -554,7 +559,7 @@
               </div>
               <div style="margin-top: 14px; background: #F7F7F5; border-radius: 14px; padding: 14px">
                 <p style="font-size: 10px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: #625B54">Recommendation</p>
-                <p style="margin-top: 6px; font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 21px">Wait and compare.</p>
+                <p style="margin-top: 6px; font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 21px">Wait and compare.</p>
                 <p style="margin-top: 6px; font-size: 12.5px; line-height: 1.45; color: #4A423B">Plan +£120 over your preferred limit.</p>
               </div>
               <div style="margin-top: 12px; display: grid; gap: 6px">
@@ -570,51 +575,51 @@
 
         <div>
           <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #C9BBA6">One real decision · Product preview</p>
-          <h2 id="cm4-example-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">A beautiful item. <span style="font-style: italic; color: #E4D7C4">A more complete picture.</span></h2>
+          <h2 id="cm4-example-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">A beautiful item. <span style="font-style: italic; color: #E4D7C4">A more complete picture.</span></h2>
 
           <p style="margin-top: clamp(32px, 3.4vw, 48px); font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #C9BBA6">Carmella considers</p>
           <ul style="list-style: none; padding: 0; margin-top: 18px; display: grid; gap: 18px">
-            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">i.</span>It works with several everyday looks already in your wardrobe.</li>
-            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">ii.</span>You have another structured dark bag serving a similar purpose.</li>
-            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">iii.</span>It would take your current shopping plan £120 above your preferred limit.</li>
-            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">iv.</span>The shape is useful; the role is not yet unique.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">i.</span>It works with several everyday looks already in your wardrobe.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">ii.</span>You have another structured dark bag serving a similar purpose.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">iii.</span>It would take your current shopping plan £120 above your preferred limit.</li>
+            <li style="display: grid; grid-template-columns: 40px 1fr; gap: 8px; font-size: 17px; line-height: 1.5; color: #F1EAE0"><span style="font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: 20px; color: #C9BBA6">iv.</span>The shape is useful; the role is not yet unique.</li>
           </ul>
 
           <div style="margin-top: clamp(32px, 3.4vw, 48px); background: #33240F; padding: clamp(22px, 2.4vw, 34px)">
-            <h3 style="font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-style: italic; font-size: clamp(26px, 2.4vw, 36px); line-height: 1.1">Wait and compare.</h3>
+            <h3 style="font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-style: italic; font-size: clamp(26px, 2.4vw, 36px); line-height: 1.1">Wait and compare.</h3>
             <p style="margin-top: 12px; max-width: 54ch; font-size: 16.5px; line-height: 1.65; color: #E4DACB">Keep it on your list for seven days. Compare it with the bag you already own and notice which one you would choose for a normal week—not only for the version of life you imagined when you saw it.</p>
             <p style="margin-top: 18px; font-size: 13px; letter-spacing: 0.04em; color: #C9BBA6">Keep waiting · Add to a later plan · Look for a better alternative</p>
           </div>
 
-          <p style="margin-top: clamp(28px, 3vw, 40px); max-width: 34ch; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(21px, 1.8vw, 27px); line-height: 1.3; color: #FFFFFF">Carmella does not make the decision for you. <span style="font-style: italic">It helps you see the decision more clearly.</span></p>
+          <p style="margin-top: clamp(28px, 3vw, 40px); max-width: 34ch; font-family: 'Playfair Display', Didot, serif; font-size: clamp(21px, 1.8vw, 27px); line-height: 1.3; color: #FFFFFF">Carmella does not make the decision for you. <span style="font-style: italic">It helps you see the decision more clearly.</span></p>
         </div>
       </div>
     </section>
 
     <section id="why-carmella" aria-labelledby="cm4-benefits-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px)">
       <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Why Carmella</p>
-      <h2 id="cm4-benefits-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em">More clarity. <span style="font-style: italic; color: #483D2E">Same love of fashion.</span></h2>
+      <h2 id="cm4-benefits-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em">More clarity. <span style="font-style: italic; color: #483D2E">Same love of fashion.</span></h2>
 
       <div style="margin-top: clamp(44px, 5.4vw, 88px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: clamp(36px, 5vw, 96px); align-items: start">
         <dl style="display: grid; gap: 6px">
           <div tabindex="0" sc-camel-on-mouse-enter="{{ b1 }}" sc-camel-on-focus="{{ b1 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp1 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
-            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">01</span>One place for what you want</dt>
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">01</span>One place for what you want</dt>
             <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Bring screenshots, links, and saved pieces into one considered wishlist.</dd>
           </div>
           <div tabindex="0" sc-camel-on-mouse-enter="{{ b2 }}" sc-camel-on-focus="{{ b2 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp2 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
-            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">02</span>A second opinion with context</dt>
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">02</span>A second opinion with context</dt>
             <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">See whether an item fits your wardrobe, outfits, lifestyle, and priorities.</dd>
           </div>
           <div tabindex="0" sc-camel-on-mouse-enter="{{ b3 }}" sc-camel-on-focus="{{ b3 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp3 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
-            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">03</span>Time on your side</dt>
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">03</span>Time on your side</dt>
             <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Let the first rush pass. Notice what you still want after a week—or a month.</dd>
           </div>
           <div tabindex="0" sc-camel-on-mouse-enter="{{ b4 }}" sc-camel-on-focus="{{ b4 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp4 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
-            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">04</span>Budget clarity without restriction</dt>
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">04</span>Budget clarity without restriction</dt>
             <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Understand where a purchase fits without turning fashion into a spreadsheet.</dd>
           </div>
           <div tabindex="0" sc-camel-on-mouse-enter="{{ b5 }}" sc-camel-on-focus="{{ b5 }}" style="padding: clamp(18px, 1.8vw, 26px) 0; opacity: {{ bOp5 }}; transition: opacity .4s ease; cursor: default; outline-offset: 6px">
-            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">05</span>A wardrobe that becomes easier to wear</dt>
+            <dt style="display: flex; align-items: baseline; gap: 18px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.12"><span style="font-style: italic; font-size: 0.6em; color: #483D2E">05</span>A wardrobe that becomes easier to wear</dt>
             <dd style="margin: 10px 0 0 calc(0.6em + 18px); max-width: 46ch; font-size: 16.5px; line-height: 1.6; color: #4A423B">Choose pieces that connect to what you own and the life you actually live.</dd>
           </div>
         </dl>
@@ -656,7 +661,7 @@
 
     <section aria-labelledby="cm4-transform-h" style="background: #F7F7F5">
       <div style="max-width: 1200px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px)">
-        <h2 id="cm4-transform-h" style="text-align: center; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em">Shopping can feel <span style="font-style: italic; color: #483D2E">less random.</span></h2>
+        <h2 id="cm4-transform-h" style="text-align: center; font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.6vw, 72px); line-height: 1.04; letter-spacing: -0.02em">Shopping can feel <span style="font-style: italic; color: #483D2E">less random.</span></h2>
 
         <div role="table" aria-label="Before and with Carmella" style="margin-top: clamp(44px, 5.4vw, 88px); display: grid; gap: clamp(14px, 1.6vw, 22px)">
           <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px)">
@@ -665,28 +670,28 @@
           </div>
           <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
             <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Saved items scattered across apps</span>
-            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">One thoughtful consideration space</span>
+            <span role="cell" style="font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">One thoughtful consideration space</span>
           </div>
           <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
             <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">An item judged on its own</span>
-            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">The item seen with wardrobe and lifestyle context</span>
+            <span role="cell" style="font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">The item seen with wardrobe and lifestyle context</span>
           </div>
           <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
             <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Sale pressure and instant checkout</span>
-            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">Time to think before deciding</span>
+            <span role="cell" style="font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">Time to think before deciding</span>
           </div>
           <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
             <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Budget guilt or no visibility</span>
-            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">A calm view of the plan</span>
+            <span role="cell" style="font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">A calm view of the plan</span>
           </div>
           <div role="row" style="display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(20px, 4vw, 72px); align-items: baseline">
             <span role="cell" style="font-size: clamp(16px, 1.3vw, 19px); line-height: 1.45; color: #625B54">Another isolated purchase</span>
-            <span role="cell" style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">A piece chosen for the wardrobe as a whole</span>
+            <span role="cell" style="font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.9vw, 28px); line-height: 1.25">A piece chosen for the wardrobe as a whole</span>
           </div>
         </div>
 
         <div style="margin-top: clamp(64px, 8vw, 128px); display: grid; justify-items: center; gap: clamp(28px, 3vw, 40px); text-align: center">
-          <p style="max-width: 20ch; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(32px, 4.4vw, 68px); line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance">A considered yes feels better. <span style="font-style: italic; color: #483D2E">So does a confident no.</span></p>
+          <p style="max-width: 20ch; font-family: 'Playfair Display', Didot, serif; font-size: clamp(32px, 4.4vw, 68px); line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance">A considered yes feels better. <span style="font-style: italic; color: #483D2E">So does a confident no.</span></p>
           <a href="#waitlist" sc-camel-on-click="{{ onMidCta }}" style="display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 34px; background: #281B09; color: #FFFFFF; border-radius: 2px; font-size: 12px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; transition: background .3s ease" style-hover="background: #483D2E; color: #FFFFFF">Join the waitlist</a>
         </div>
       </div>
@@ -696,10 +701,10 @@
       <img loading="lazy" src="assets/images/ef0ba4af-21fb-4f13-a37c-3f96a43bbda2.jpg" width="1100" height="1650" alt="Black-and-white studio portrait of a woman in an oversized jacket and boots, kneeling." style="width: 100%; height: auto; aspect-ratio: 2 / 3; max-height: 860px; object-fit: cover; object-position: 50% 50%; background: #2A2A2A">
       <div>
         <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Our point of view</p>
-        <h2 id="cm4-pov-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">Loving fashion was <span style="font-style: italic; color: #483D2E">never the problem.</span></h2>
-        <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 52ch; font-size: clamp(17px, 1.3vw, 19.5px); line-height: 1.7; color: #4A423B"><span aria-hidden="true" style="float: left; font-family: 'Bodoni Moda', Didot, serif; font-size: 4.4em; line-height: 0.82; padding: 6px 12px 0 0; color: #281B09">C</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">C</span>armella is being built for women who want beautiful things and better decisions. Not a smaller life. Not a stricter wardrobe. Just more space to think, more context before buying, and more confidence in what finally earns a place.</p>
+        <h2 id="cm4-pov-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em; text-wrap: balance">Loving fashion was <span style="font-style: italic; color: #483D2E">never the problem.</span></h2>
+        <p style="margin-top: clamp(24px, 2.6vw, 36px); max-width: 52ch; font-size: clamp(17px, 1.3vw, 19.5px); line-height: 1.7; color: #4A423B"><span aria-hidden="true" style="float: left; font-family: 'Playfair Display', Didot, serif; font-size: 4.4em; line-height: 0.82; padding: 6px 12px 0 0; color: #281B09">C</span><span style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">C</span>armella is being built for women who want beautiful things and better decisions. Not a smaller life. Not a stricter wardrobe. Just more space to think, more context before buying, and more confidence in what finally earns a place.</p>
         <blockquote style="margin-top: clamp(32px, 3.6vw, 52px)">
-          <p style="max-width: 22ch; font-family: 'Bodoni Moda', Didot, serif; font-style: italic; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.2; color: #483D2E">“Shop with intention. Build a wardrobe that works.”</p>
+          <p style="max-width: 22ch; font-family: 'Playfair Display', Didot, serif; font-style: italic; font-size: clamp(24px, 2.4vw, 36px); line-height: 1.2; color: #483D2E">“Shop with intention. Build a wardrobe that works.”</p>
         </blockquote>
       </div>
     </section>
@@ -708,36 +713,36 @@
       <div style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: clamp(36px, 5vw, 96px); align-items: start">
         <div style="position: {{ faqSticky }}; top: 110px">
           <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Questions</p>
-          <h2 id="cm4-faq-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em">Good to <span style="font-style: italic; color: #483D2E">know.</span></h2>
+          <h2 id="cm4-faq-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(36px, 4.4vw, 68px); line-height: 1.04; letter-spacing: -0.02em">Good to <span style="font-style: italic; color: #483D2E">know.</span></h2>
         </div>
 
         <div style="display: grid; gap: 8px">
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="what-is-carmella" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>What is Carmella?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark1 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>What is Carmella?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark1 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">Carmella is a new way to plan what you want, understand what belongs in your wardrobe, and make clearer decisions before you buy.</p>
           </details>
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="availability" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Is Carmella available now?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark2 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Is Carmella available now?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark2 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">Not yet. We’re building the first version now. Join the waitlist to hear about early access.</p>
           </details>
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="anti-shopping" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Will Carmella tell me to stop shopping?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark3 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Will Carmella tell me to stop shopping?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark3 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">No. Carmella is not anti-shopping or about owning as little as possible. It is designed to help you choose more intentionally and enjoy what you buy more.</p>
           </details>
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="wardrobe-upload" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Do I need to upload my entire wardrobe?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark4 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Do I need to upload my entire wardrobe?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark4 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">No. Carmella is designed to learn useful wardrobe context gradually. You can start with a few basics and add more only when it helps.</p>
           </details>
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="budget-required" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Is a fashion budget required?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark5 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>Is a fashion budget required?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark5 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">No. Budget is an optional clarity layer, not a restriction. The purpose is to help you see where a purchase fits in your plan.</p>
           </details>
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="pricing" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>How much will Carmella cost?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark6 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>How much will Carmella cost?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark6 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">Pricing will be shared closer to launch. Waitlist members will hear first about early access and launch details.</p>
           </details>
           <details sc-camel-on-toggle="{{ onFaqToggle }}" data-faq="after-joining" style="background: #FFFFFF; padding: 4px clamp(18px, 2vw, 28px)">
-            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>What happens after I join?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark7 }}</span></summary>
+            <summary style="display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 72px; font-family: 'Playfair Display', Didot, serif; font-size: clamp(19px, 1.6vw, 23px); line-height: 1.25"><span>What happens after I join?</span><span aria-hidden="true" style="font-family: Jost, sans-serif; font-size: 22px; font-weight: 400; color: #483D2E">{{ faqMark7 }}</span></summary>
             <p style="padding-bottom: 22px; max-width: 60ch; font-size: 16.5px; line-height: 1.65; color: #4A423B">You’ll receive occasional product updates and an invitation when early access becomes available.</p>
           </details>
         </div>
@@ -747,7 +752,7 @@
     <section id="waitlist" aria-labelledby="cm4-waitlist-h" style="max-width: 1440px; margin: 0 auto; padding: clamp(72px, 9vw, 150px) clamp(20px, 3.4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr)); gap: clamp(40px, 6vw, 120px); align-items: center">
       <div>
         <p style="font-size: 11.5px; font-weight: 500; letter-spacing: 0.22em; text-transform: uppercase; color: #625B54">Early access</p>
-        <h2 id="cm4-waitlist-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(40px, 5.4vw, 88px); line-height: 1.02; letter-spacing: -0.025em; text-wrap: balance">Make your next “yes” <span style="font-style: italic; color: #483D2E">more certain.</span></h2>
+        <h2 id="cm4-waitlist-h" style="margin-top: clamp(20px, 2.4vw, 32px); font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(40px, 5.4vw, 88px); line-height: 1.02; letter-spacing: -0.025em; text-wrap: balance">Make your next “yes” <span style="font-style: italic; color: #483D2E">more certain.</span></h2>
         <p style="margin-top: clamp(20px, 2.4vw, 30px); max-width: 44ch; font-size: clamp(17px, 1.3vw, 19px); line-height: 1.6; color: #4A423B">Join the Carmella waitlist for early access and thoughtful updates as we build a better way to shop.</p>
 
         <div style="margin-top: clamp(28px, 3vw, 44px); max-width: 520px">
@@ -765,7 +770,7 @@
 
           <sc-if value="{{ isSuccess }}">
             <div role="status" aria-live="polite" style="background: #F7F7F5; padding: clamp(24px, 2.6vw, 36px); animation: cm-fade .4s ease both">
-              <p style="font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(28px, 2.6vw, 38px); line-height: 1.1">You’re on <span style="font-style: italic; color: #483D2E">the list.</span></p>
+              <p style="font-family: 'Playfair Display', Didot, serif; font-size: clamp(28px, 2.6vw, 38px); line-height: 1.1">You’re on <span style="font-style: italic; color: #483D2E">the list.</span></p>
               <p style="margin-top: 10px; font-size: 16.5px; line-height: 1.6; color: #4A423B">We’ll let you know when Carmella is ready.</p>
               <a href="https://www.instagram.com/carmella.app" style="display: inline-flex; align-items: center; min-height: 44px; margin-top: 10px; font-size: 12px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; border-bottom: 1px solid #C9C3BC" style-hover="color: #483D2E; border-bottom-color: #483D2E">Follow @carmella.app</a>
             </div>
@@ -783,7 +788,7 @@
   <footer role="contentinfo" style="background: #281B09; color: #FFFFFF">
     <div style="max-width: 1440px; margin: 0 auto; padding: clamp(56px, 7vw, 110px) clamp(20px, 3.4vw, 56px) {{ footerPadBottom }}">
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: clamp(28px, 3vw, 48px)">
-        <p style="max-width: 22ch; font-family: 'Bodoni Moda', Didot, serif; font-size: clamp(22px, 2vw, 30px); line-height: 1.2">Shop with intention. <span style="font-style: italic; color: #E4D7C4">Build a wardrobe that works.</span></p>
+        <p style="max-width: 22ch; font-family: 'Playfair Display', Didot, serif; font-size: clamp(22px, 2vw, 30px); line-height: 1.2">Shop with intention. <span style="font-style: italic; color: #E4D7C4">Build a wardrobe that works.</span></p>
         <div style="display: grid; gap: 4px; align-content: start">
           <p style="font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: #C9BBA6">Follow</p>
           <a href="https://www.instagram.com/carmella.app" style="color: #F1EAE0; font-size: 15.5px; min-height: 44px; display: inline-flex; align-items: center" style-hover="color: #FFFFFF">Instagram @carmella.app</a>
@@ -801,7 +806,7 @@
         </div>
       </div>
 
-      <p aria-hidden="true" style="margin-top: clamp(56px, 7vw, 110px); text-align: center; font-family: 'Bodoni Moda', Didot, serif; font-weight: 400; font-size: clamp(56px, 15vw, 236px); line-height: 0.9; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF; padding-left: 0.06em">Carmella</p>
+      <p aria-hidden="true" style="margin-top: clamp(56px, 7vw, 110px); text-align: center; font-family: 'Playfair Display', Didot, serif; font-weight: 400; font-size: clamp(56px, 15vw, 236px); line-height: 0.9; letter-spacing: 0.06em; text-transform: uppercase; color: #FFFFFF; padding-left: 0.06em">Carmella</p>
 
       <div style="margin-top: clamp(28px, 3vw, 44px); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12px; letter-spacing: 0.08em; color: #C9BBA6">
         <span>© 2026 Carmella</span>
